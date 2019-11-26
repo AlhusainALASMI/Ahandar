@@ -1,0 +1,44 @@
+{"products": [
+	{
+		"globale": [
+			{
+				"antivirus": [
+					{
+						"nom": "avinco",
+						"prix": "29.99"
+					},
+					{
+						"nom": "anubis",
+						"prix": "79.99"
+					},
+					{
+						"nom": "avincoPremium",
+						"prix": "99.99"
+					}
+				]
+			},
+			{
+				"pack-all-in-one": [
+					{
+						"nom": "all-in-one",
+						"prix": "139.99"
+					}
+				]
+			}
+		]
+	},
+	{
+		"internet": [
+			{
+				"web extension": [
+					{
+						"nom": "webextension",
+						"prix": "9.99"
+					},
+					{
+						"nom": "webprotect",
+						"prix": "2"
+					}]
+			}]
+	}
+]}

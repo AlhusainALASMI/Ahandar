@@ -1,0 +1,44 @@
+.searchPanel.active {
+	position: fixed;
+	visibility: visible;
+	top: 6vh;
+	left: 20%; right: 20%;
+	height: 8%;
+	opacity: 1;
+	border-radius: 100px;
+	background-color: #ebf5ff;
+	transition-duration: 0.5s;
+}
+.searchPanel {
+	position: fixed;
+	visibility: hidden;
+	top: -15vh;
+	left: 20%; right: 20%;
+	height: 8%;
+	opacity: 0;
+	border-radius: 100px;
+	background-color: #ebf5ff;
+	transition-duration: 0.8s;
+}
+.search {
+	position: absolute;
+	cursor: text;
+	left: 4vh;
+	height: 7vh;
+	width: 92%;
+	border: none;
+	background: transparent;
+
+	/*Texte search*/
+	font-size: 5vh;
+	color: #5f6f73;
+}
+.decorationSearch {
+	position: absolute;
+	opacity: 0;
+	top: 6.5vh;
+	left: 3%; right: 3%;
+	height: 1%;
+	background-color: #5f6f73;
+	transition-duration: 0.4s;
+}

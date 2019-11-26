@@ -1,0 +1,19 @@
+.background {
+	background-attachment: local;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.containerResults {
+	position: relative;
+	top: 10vh;
+	margin-left: 20vh; margin-right: 20vh;
+	height: 1000px;
+	background-color: grey;
+}
+.results {
+	position: relative;
+	top: 10vh;
+	margin-left: 20vh; margin-right: 20vh;
+	background-color: red;
+}
