@@ -1,12 +1,16 @@
 $(document).ready(function() {
 
-	//-----------------------Fade-in logos---------------------------
+	//------------------ Voile OnLoad -----------------------
+		$(".voile").delay(200).fadeOut(200);
+
+
+	//------------------- Fade-in logos n---------------------------
 		$("img.logo").delay(200).animate({
 			opacity: 1,
 			width: "50%"}, 800);
 		$("img.separation").delay(500).animate({opacity: 1}, 1000);
 
-	//-----------------Scroll to anchor------------------------------
+	//----------------- Scroll to anchor ------------------------------
 		$("img.separation").click(function (){ //from separation to presentation1
 			$("body, html").animate({
 				scrollTop: $("#presentation").offset().top -100

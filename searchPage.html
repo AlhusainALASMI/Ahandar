@@ -19,11 +19,21 @@
 
 		<div class="navbarImport"></div>
 
+		<div class="categories"></div>
+
 		<div class="containerResults">
-			<div class="results">
-				Résultats pour : <?php echo $_GET["name1"]; ?>
+			<div class="results" id="results">
+				Résultats pour :
+				<!-- GET QUERY from SEARCH --->
+				<script type="text/javascript"> 
+					const urlParams = new URLSearchParams(window.location.search);
+					const myParam = urlParams.get("q");
+					document.getElementById("results").innerHTML += myParam
+				</script>
 			</div>
 		</div>
+
+		<div class="checkout"></div>
 
 	</div>
 </body>

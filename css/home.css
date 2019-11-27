@@ -1,20 +1,27 @@
 /*--------- GENERAL -------------*/
 @font-face {
 	font-family: GeorgeCafe;
-	src: url(fonts/LouisGeorgeCafe.ttf);
+	src: url(../fonts/LouisGeorgeCafe.ttf);
 }
 body {
 	font-family: GeorgeCafe;
-	    margin-left:auto;
-    margin-right:auto;
 }
 
 html {
 	height: 100%;
 }
 
+/*----------- ARRIERE PLAN / VOILE ------------------*/
+.voile {
+	z-index: 1;
+	position: fixed;
+	top: 0vh;
+	left: 0vh;
+	right: 0vh;
+	bottom: 0vh;
+	background-color: #3e4b61;
+}
 
-/*----------- ARRIERE PLAN ------------------*/
 .background {
 	margin-top: 100px;
 	background-position: fixed;

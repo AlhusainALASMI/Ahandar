@@ -6,6 +6,6 @@
 </head>
 <body>
 	Votre réponse est donc:
-	<?php echo $_POST["name1"]; ?>
+	<?php echo $_GET["q"]; ?>
 </body>
 </html>
