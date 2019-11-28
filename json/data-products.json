@@ -6,7 +6,14 @@
 				"image": "images/products/fjall.png",
 				"price": "69.69",
 				"description": "Fjall est un produit suédois de luxe, idéal pour forniquer sa voisine",
-				"evaluation": "4.7 etoiles",
+				"etoiles": "4.3",
+				"evaluation": [
+					{
+						"user": "idfua",
+						"comment": "jfall, parce que j'ai reussi a la bz",
+						"note": "5"
+					}
+				],
 				"category": "globale/antivirus"
 			}]
 	},
@@ -17,7 +24,14 @@
 				"image": "images/products/avinco.png",
 				"price": "29.99",
 				"description": "antivirus polyvalent cheap",
-				"evaluation": "4 etoiles",
+				"etoiles": "4.1",
+				"evaluation": [
+					{
+						"user": "Xx_M04_xX",
+						"comment": "sans plus. encore une fois avinco decoit dans sa personnalisation",
+						"note": "3"
+					}
+				],
 				"category": "globale/antivirus"
 			}]
 	},
@@ -28,7 +42,19 @@
 				"image": "images/products/anubis.png",
 				"price": "79.99",
 				"description": "antivirus complet",
-				"evaluation": "4.5 etoiles",
+				"etoiles": "4.8",
+				"evaluation": [
+					{
+						"user": "kurt_cobain_78",
+						"comment": " 0 stars smells like shit",
+						"note": "1"
+					},
+					{
+						"user": "user194751",
+						"comment": "Bien. Anubis ne change pas.",
+						"note": "5"
+					}
+				],
 				"category": "globale/antivirus"
 			}]
 	},
