@@ -27,7 +27,7 @@ $(document).ready(function() {
 	$("img.menuImg").click(function() {
 		$(".menuPanel").toggleClass("active", 1000);
 	});
-
+	
 //-------------------------------------- Jour / Nuit (checkbox) -----------------------------------
 	$(".switch input").prop("checked", false);	//Decoche la checkbox jour/nuit
 

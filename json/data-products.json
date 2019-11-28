@@ -1,0 +1,52 @@
+{"products": [
+	{
+		"name": "avinco",
+		"spec": [
+			{
+				"price": "29.99",
+				"description": "antivirus polyvalent cheap",
+				"evaluation": "4 etoiles",
+				"category": "globale/antivirus"
+			}]
+	},
+	{
+		"name": "anubis",
+		"spec": [
+			{
+				"price": "79.99",
+				"description": "antivirus complet",
+				"evaluation": "4.5 etoiles",
+				"category": "globale/antivirus"
+			}]
+	},
+	{
+		"name": "avincoPremium",
+		"spec": [
+			{
+				"price": "99.99",
+				"description": "antivirus premium complet",
+				"evaluation": "4.7 etoiles",
+				"category": "globale/antivirus"
+			}]
+	},
+	{
+		"name": "haroft all-in-one",
+		"spec": [
+			{
+				"price": "139.99",
+				"description": "package simple complet",
+				"evaluation": "4.2 etoiles",
+				"category": "globale/all-in-one"
+			}]
+	},
+	{
+		"name": "webextension",
+		"spec": [
+			{
+				"price": "9.99",
+				"description": "protection web basic",
+				"evaluation": "3.9 etoiles",
+				"category": "internet/web-extension"
+			}]
+	}
+]}
