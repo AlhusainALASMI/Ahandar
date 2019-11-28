@@ -11,7 +11,8 @@
 
 	<script src="js/jquery-3.4.1.min.js"></script>
 	<script src="js/import-navbar.js"></script>
-	<script src="js/import-data.js"></script>
+	<script src="js/import-data-suggestions.js"></script>
+
 
 </head>
 <body class="background">
@@ -19,7 +20,21 @@
 
 		<div class="navbarImport"></div>
 
-		<div class="productInfo"></div>
+		<div class="productBackground"></div>
+		<div class="invalidParamVoile"><img class="errorImg" src="images/error.png"><p class="errorTxt">Désolé. Ce produit n'existe pas !</p></div> <!-- error screen -->
+
+		<div class="productInfo">
+			
+			<h1 id="title"></h1>
+			
+			<img class="image">
+
+			<h2 class="price"></h2>
+			
+			<p class="description"></p>
+
+			<p class="evaluation"></p>
+		</div>
 
 		<div class="checkout"></div>
 

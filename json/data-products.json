@@ -1,8 +1,20 @@
 {"products": [
 	{
+		"name": "fjall",
+		"spec": [
+			{
+				"image": "images/products/fjall.png",
+				"price": "69.69",
+				"description": "Fjall est un produit suédois de luxe, idéal pour forniquer sa voisine",
+				"evaluation": "4.7 etoiles",
+				"category": "globale/antivirus"
+			}]
+	},
+	{
 		"name": "avinco",
 		"spec": [
 			{
+				"image": "images/products/avinco.png",
 				"price": "29.99",
 				"description": "antivirus polyvalent cheap",
 				"evaluation": "4 etoiles",
@@ -13,6 +25,7 @@
 		"name": "anubis",
 		"spec": [
 			{
+				"image": "images/products/anubis.png",
 				"price": "79.99",
 				"description": "antivirus complet",
 				"evaluation": "4.5 etoiles",
@@ -23,6 +36,7 @@
 		"name": "avincoPremium",
 		"spec": [
 			{
+				"image": "images/products/avincoPremium.png",
 				"price": "99.99",
 				"description": "antivirus premium complet",
 				"evaluation": "4.7 etoiles",
@@ -33,6 +47,7 @@
 		"name": "haroft all-in-one",
 		"spec": [
 			{
+				"image": "images/products/haroft.png",
 				"price": "139.99",
 				"description": "package simple complet",
 				"evaluation": "4.2 etoiles",
@@ -43,6 +58,7 @@
 		"name": "webextension",
 		"spec": [
 			{
+				"image": "images/products/webextension.png",
 				"price": "9.99",
 				"description": "protection web basic",
 				"evaluation": "3.9 etoiles",

@@ -1,4 +1,4 @@
-let list = [];
+let listNames = [];
 
 
 $().ready(function(){
@@ -6,16 +6,15 @@ $().ready(function(){
 	//Import JSON data
 	$.getJSON("json/data-products.json", function(data) {
 		$.each(data["products"], function(i) {
-			list.push(data["products"][i].name);
+			listNames.push(data["products"][i].name);
 		});
-		console.log(list);
+		console.log(listNames);
 		console.log("data loaded from json/data-products.json");
 	});
 });
 
 
 $(document).on("keyup", checkMatch);
-
 
 function checkMatch() {
 	if ($(".search").is(":focus")) {
@@ -28,10 +27,10 @@ function checkMatch() {
 		else {
 			$(".suggest").empty(); //Clear after each keystroke(clean)
 
-			for (var k in list) { //For all elements in array (names)
-				if (list[k].startsWith(search)) { //If query matches names beginning
-					console.log(list[k]);
-					$(".suggest").append("<li><a href='productPage.html?q=" + list[k] + "'>" + list[k] + "</a></li>");
+			for (var k in listNames) { //For all elements in array (names)
+				if (listNames[k].startsWith(search)) { //If query matches names beginning
+					console.log(listNames[k]);
+					$(".suggest").append("<li><a href='productPage.html?q=" + listNames[k] + "'>" + listNames[k] + "</a></li>");
 				}
 			}
 		}

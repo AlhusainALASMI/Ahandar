@@ -11,18 +11,67 @@ html {
 	height: 100%;
 }
 
-/*------------ ARRIERE PLAN -----------------*/
+/*---------- ARRIERE PLAN / ERREUR ----------------*/
 .background {
 	background-attachment: local;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+.invalidParamVoile {
+	z-index: 1;
+	position: fixed;
+	height: 100vh;
+	top: 5vh;
+	left: 0%; right: 0%;
+	background: linear-gradient(#e8f6ff, #f24235);
+	background-size: cover;
+	outline: 1px solid grey;
+	opacity: 0;
+	display: block;
+}
+img.errorImg {
+	position: relative;
+	display: block;
+	margin: 10vh auto;
+	height: 20vh;
+}
+.errorTxt {
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 3vh;
+}
 
 /*-------------- PRODUIT -----------------*/
-.productInfo {
+.productBackground {
 	position: absolute;
 	top: 5vh;
 	left: 0%; right: 20%;
 	height: 100%;
-	background: linear-gradient(#ebf5ff, #e6ebff);
+	background: linear-gradient(#cfdae6, #cfdae6);
+}
+
+.productInfo {
+	position: absolute;
+	top: 10vh;
+	left: 10%; right: 20%;
+	bottom: 20vh;
+	background-color: #d4fcff;
+}
+
+/*------------- IMAGES(s) -----------------*/
+img.image {
+	position: absolute;
+	display: block;
+	margin: 3% 3%;
+	width: 50vh;
+	opacity: 1;
+}
+
+/*-------------- TEXTE ------------------*/
+#title {
+	font-size: 8vh;
+	margin: 3% 40%;
+	text-align: center;
+	background-color: white;
 }
