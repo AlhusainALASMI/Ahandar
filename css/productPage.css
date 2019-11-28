@@ -1,0 +1,28 @@
+/*--------- GENERAL -------------*/
+@font-face {
+	font-family: GeorgeCafe;
+	src: url(../fonts/LouisGeorgeCafe.ttf);
+}
+body {
+	font-family: GeorgeCafe;
+}
+
+html {
+	height: 100%;
+}
+
+/*------------ ARRIERE PLAN -----------------*/
+.background {
+	background-attachment: local;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*-------------- PRODUIT -----------------*/
+.productInfo {
+	position: absolute;
+	top: 5vh;
+	left: 0%; right: 20%;
+	height: 100%;
+	background: linear-gradient(#ebf5ff, #e6ebff);
+}

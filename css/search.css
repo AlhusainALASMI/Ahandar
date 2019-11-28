@@ -47,26 +47,27 @@
 .suggest {
 	position: absolute;
 	display: block;
-	top: 7vh;
+	top: 5vh;
 	right: 3vh;
 	left: 3vh;
-	padding-left: 3vh;
+	padding-left: 0vh;
+
 	cursor: pointer;
 	list-style-type: none;
 	border-radius: 10px;
 	background-color: #ebf5ff;
-	transition-duration: 0.4s
-
-	/*Texte suggestions*/
-	font-size: 6vh;
-	color: #5f6f73;
+	transition-duration: 0.4s;
 }
-??????????
-li a:hover {
-	background-color: #ced5db;
-	transition-duration: 0.4s
-
-	/*Texte suggestions*/
-	font-size: 6vh;
+li a {
+	display: block;
+	border-radius: 10px;
+	padding: 2vh 4vh;
+	text-decoration: none;
 	color: #5f6f73;
+	font-size: 3vh;
+	transition: background-color 0.2s ease;
+}
+li a:hover {
+	background-color: #6d8094;
+	color: white;
 }

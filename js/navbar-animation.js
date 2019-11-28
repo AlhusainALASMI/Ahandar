@@ -6,6 +6,7 @@ $(document).ready(function() {
 //------------------- SEARCH ----------------------------
 	//Ouvrir searchPanel
 	$("img.loupeImg").click(function() {
+		$(".suggest").empty(); //Efface les suggestions
 		$(".search").delay(1000).val(""); //Efface le texte de recherche
 		$(".searchPanel").delay(1000).toggleClass("active", 1000);
 	});
