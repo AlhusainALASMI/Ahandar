@@ -29,50 +29,50 @@ $(document).ready(function() {
 //-----------------------------------------------
 
 
-
+//TOGGLE PRODUCTS INFOS
 function enableInfos() {
-		var i = 0;
-		var j = 0; //pour le feedback
 		
-		//if product = url param > toggle everthing
+		//if (product = url param) > toggle everthing, else > voileErreur
 		for (var i = 0; i <= listAll[1].length-1; i++) {
-			if (productParam == listAll[1][i].name) {
+			if (productParam === listAll[1][i].name) {
 
-				//easy naming //p = products
-				var pName = listAll[1][i].name;
-				var pImage = listAll[1][i].spec[0].image;
-				var pPrice = listAll[1][i].spec[0].price;
-				var pDescription = listAll[1][i].spec[0].description;
+				//productName, productImage...
+				const pName = listAll[1][i].name;
+				const pImage = listAll[1][i].spec[0].image;
+				const pPrice = listAll[1][i].spec[0].price;
+				const pDescription = listAll[1][i].spec[0].description;
 
-				//toggle everything
+				//toggle product info
 				$(".invalidParamVoile").hide();
 				$("#title").append(pName);
 				$(".image").attr("src", pImage);
-				$(".price").append(pPrice);
-				$(".description").append(pDescription);
+				$(".price").append(pPrice + "€");
+				$(".description").append("Description: " + pDescription);
 
-				for (var j = 0; j <= listAll[1][i].spec[0].evaluation.length-1; j++) {
-					
-					//easy naming //f = feedback
-					var fUser = listAll[1][i].spec[0].evaluation[j].user;
-					var fComment = listAll[1][i].spec[0].evaluation[j].comment;
-					var fNote = listAll[1][i].spec[0].evaluation[j].note;
+				if (listAll[1][i].spec[0].evaluation[0].user != null) { //si aucun commentaire > skip
+					for (var j = 0; j <= listAll[1][i].spec[0].evaluation.length-1; j++) {
 
-
-					$(".feedback").append(
-						"<p class='user'>"+ fUser +"</p>"+
-						"<p class='comment'>"+ fComment + "</p>"+
-						"<p class='note'>"+ fNote +"</p>");
+						//feedbackUser, feedbackComment...
+						const fUser = listAll[1][i].spec[0].evaluation[j].user;
+						const fComment = listAll[1][i].spec[0].evaluation[j].comment;
+						const fNote = listAll[1][i].spec[0].evaluation[j].note;
+						
+						//toggle feedbacks
+						$(".feedback").append(
+							"<p class='user'>User: "+ fUser +"</p>"+
+							"<p class='comment'>Comment: "+ fComment + "</p>"+
+							"<p class='note'>Note: "+ fNote +"</p>");
+					}
 				}
 			}
 		}
 };
 
 
-
+//SUGGESTIONS
 function checkMatch() {
-	if ($(".search").is(":focus")) {
-		var search = $(".search").val().toLowerCase(); //get query lowercase
+	if ($(".search").is(":focus")) { //If search is on focus
+		const search = $(".search").val().toLowerCase(); //get query lowercase
 
 		if (search == "") { //If query is empty v
 			$(".suggest").empty(); //Clear suggestions
@@ -81,12 +81,16 @@ function checkMatch() {
 		else {
 			$(".suggest").empty(); //Clear after each keystroke(clean)
 
-			for (var k in listNames) { //For all elements in array (names)
+			for (const k in listNames) { //For all elements in array (names)
 				if (listNames[k].startsWith(search)) { //If query matches names beginning
-					console.log(listNames[k]);
 					$(".suggest").append("<li><a href='productPage.html?q=" + listNames[k] + "'>" + listNames[k] + "</a></li>");
 				}
 			}
 		}
 	}
 };
+
+
+//SEND FEEDBACK BACK TO SERVER
+function sendFeedback() {
+}

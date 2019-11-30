@@ -65,7 +65,19 @@
 				"image": "images/products/avincoPremium.png",
 				"price": "99.99",
 				"description": "antivirus premium complet",
-				"evaluation": "4.7 etoiles",
+				"etoiles": "3.7",
+				"evaluation": [
+					{
+						"user": "la quadrada",
+						"comment": " por quel to me deos besos",
+						"note": "2"
+					},
+					{
+						"user": "guillotin",
+						"comment": "z",
+						"note": "3"
+					}
+				],
 				"category": "globale/antivirus"
 			}]
 	},
@@ -76,7 +88,11 @@
 				"image": "images/products/haroft.png",
 				"price": "139.99",
 				"description": "package simple complet",
-				"evaluation": "4.2 etoiles",
+				"etoiles": "4.8",
+				"evaluation": [
+					{
+
+					}],
 				"category": "globale/all-in-one"
 			}]
 	},
@@ -87,7 +103,11 @@
 				"image": "images/products/webextension.png",
 				"price": "9.99",
 				"description": "protection web basic",
-				"evaluation": "3.9 etoiles",
+				"evaluation": [
+					{
+						
+					}
+				],
 				"category": "internet/web-extension"
 			}]
 	}

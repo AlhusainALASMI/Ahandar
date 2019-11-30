@@ -7,8 +7,10 @@ $(document).ready(function() {
 	//Ouvrir searchPanel
 	$("img.loupeImg").click(function() {
 		$(".suggest").empty(); //Efface les suggestions
-		$(".search").delay(1000).val(""); //Efface le texte de recherche
+		$(".search").val(""); //Efface le texte de recherche
 		$(".searchPanel").delay(1000).toggleClass("active", 1000);
+		$(".search").focus();
+
 	});
 	
 	//Fade in Fade out trait sous le texte
