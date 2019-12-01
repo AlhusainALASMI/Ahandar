@@ -12,6 +12,7 @@
 		$productParam = $_GET["pNameToPHP"];
 		$username = htmlspecialchars($_GET["username"]);
 		$comment = htmlspecialchars($_GET["comment"]);
+		$note = htmlspecialchars($_GET["feedbackNote"]);
 
 		//get JSON data
 		$url = '../json/data-products.json';
@@ -22,7 +23,7 @@
 		array_push($data[$productParam][0]["evaluation"], array(
 			"user"=>$username,
 			"comment"=>$comment,
-			"note"=>"baraaraar"));
+			"note"=>$note));
 
 		//save JSON file
 		file_put_contents('../json/data-products.json', json_encode($data, JSON_PRETTY_PRINT));

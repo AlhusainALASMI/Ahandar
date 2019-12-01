@@ -12,6 +12,7 @@ $(document).ready(function() {
 	//fade out voile erreur
 	$(".invalidParamVoile").animate({opacity: 1}, 200);
 
+	//get product infos & names
 	$.getJSON("json/data-products.json", function(i) {
 		//push json into object
 		data.push(i);
@@ -33,7 +34,7 @@ function enableInfos() {
 		if (productParam === dataNames[i]) {
 
 			//productName, productImage...
-			const pName = dataNames[i];
+			const pName = productParam;
 			const pImage = data[0][pName][0].image;
 			const pPrice = data[0][pName][0].price;
 			const pDescription = data[0][pName][0].description;
