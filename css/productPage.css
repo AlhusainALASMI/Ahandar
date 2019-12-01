@@ -142,7 +142,7 @@ img.image {
 	font-size: 2vh;
 }
 
-/*----- SENDFEEDBACK ----*/
+/*-- send feedback --*/
 .sendFeedback {
 	position: relative;
 	display: block;
@@ -170,10 +170,37 @@ img.image {
 }
 .buttonFeedback {
 	position: absolute;
-	top: 45vh;
-	left: 92vh;
+	top: 47vh;
+	left: 93vh;
 	width: 20vh;
 	height: 5vh;
+}
+
+/*-- stars rating --*/
+.starRatingTxt {
+	font-size: 2vh;
+}
+.starBox {
+	position: relative;
+	cursor: default;
+	width: 20%;
+}
+.starImg {
+	width: 3vh;
+	height: 3vh;
+	position: relative;
+	transition-duration: 0.2s;
+}
+.starImg:hover, .starImg.hovered {
+	cursor: pointer;
+	filter: invert(1);
+}
+.feedbackNote {
+	position: relative;
+	top: -1vh;
+	background: transparent;
+	border: hidden;
+	width: 2vh;
 }
 
 /*-------------- CHECKOUT ------------------*/

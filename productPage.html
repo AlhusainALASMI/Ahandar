@@ -82,11 +82,22 @@
 
 			<form action="php/submitFeedback.php" class="sendFeedback"> <!-- send feedback -->
 				<p>Ecrire un commentaire: </p>
+
 				<textarea type="text" class="usernameFeedback" name="username" placeholder="Votre nom/surnom"></textarea>
 				<textarea type="text" class="textFeedback" name="comment" placeholder="Laissez un avis"></textarea>
 				
-				<input type="text" class="pNameToPHP" name="pNameToPHP">
+				<input type="hidden" class="pNameToPHP" name="pNameToPHP">
 				<button class="buttonFeedback">Envoyer</button>
+
+				<div class="starBox">
+					<p class="starRatingTxt"><i>Laissez une note</i></p>
+					<img class="starImg" id="1" src="images/star.png">
+					<img class="starImg" id="2"src="images/star.png">
+					<img class="starImg" id="3"src="images/star.png">
+					<img class="starImg" id="4"src="images/star.png">
+					<img class="starImg" id="5"src="images/star.png">
+					<input type="text" readonly="readonly" class="feedbackNote" name="feedbackNote">
+				</div>
 			</form>
 		</div>
 
