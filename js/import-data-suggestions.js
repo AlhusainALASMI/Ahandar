@@ -19,6 +19,7 @@ $(document).ready(function() {
 		dataNames = Object.keys(data[0]);
 
 		enableInfos();
+		Setupfeedback();
 	});
 });
 //-----------------------------------------------
@@ -92,6 +93,7 @@ function checkMatch() {
 };
 
 
-//SEND FEEDBACK BACK TO SERVER
-function sendFeedback() {
-}
+//SEND productParam TO PHP
+function Setupfeedback() {
+	$(".pNameToPHP").val(productParam);
+};
