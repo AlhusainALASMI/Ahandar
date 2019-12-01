@@ -38,6 +38,18 @@ img.produitsImg:hover {
 	cursor: pointer;
 	background-color: #c1cbd9;
 }
+img.aboutImg {
+	position: absolute;
+	top: 0vh;
+	left: 43.3vh;
+	max-height: 5vh;
+	cursor: pointer;
+	transition-duration: 0.2s
+}
+img.aboutImg:hover {
+	cursor: pointer;
+	background-color: #c1cbd9;
+}
 
 
 /*-------------- SEARCH ------------*/
