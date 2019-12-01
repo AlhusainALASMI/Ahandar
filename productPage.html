@@ -22,13 +22,13 @@
 		<div class="navbarImport"></div> 
 
 		<div class="productBackground"></div>
-		<div class="invalidParamVoile"><img class="errorImg" src="images/error.png"><p class="errorTxt">Désolé. Ce produit n'existe pas !</p></div> <!-- error screen -->
+
 		
 
 		<!-- INFOS -->
 		<div class="productInfo">
 			
-			<h1 id="title"></h1>
+			<h1 name="title" id="title"></h1>
 			
 			<img class="image">
 
@@ -80,14 +80,23 @@
 			<h2>Commentaires Clients</h2>
 			</div>
 
-			<form class="sendFeedback">
+			<form action="php/submitFeedback.php" class="sendFeedback"> <!-- send feedback -->
 				<p>Ecrire un commentaire: </p>
-				<textarea type="text" class="usernameFeedback" placeholder="Votre nom/surnom"></textarea>
-
-				<textarea type="text" class="textFeedback" placeholder="Laissez un avis"></textarea>
+				<textarea type="text" class="usernameFeedback" name="username" placeholder="Votre nom/surnom"></textarea>
+				<textarea type="text" class="textFeedback" name="comment" placeholder="Laissez un avis"></textarea>
+				
+				<input type="text" class="pNameToPHP" name="pNameToPHP">
 				<button class="buttonFeedback">Envoyer</button>
-			</form><!-- send feedback -->
+			</form>
 		</div>
+
+
+		<!-- ERROR SCREEN -->
+		<div class="invalidParamVoile">
+			<img class="errorImg" src="images/error.png">
+			<p class="errorTxt">Désolé. Ce produit n'existe pas !</p>
+		</div>
+
 	</div>
 </body>
 </html>
