@@ -52,7 +52,7 @@ html {
 	position: relative;
 	width: 100%;
 	text-align: center;
-	top: 15vh;
+	top: 5vh;
 	padding-top: 5vh;
 	padding-bottom: 10vh;
 	border-radius: 20px;
@@ -70,6 +70,7 @@ html {
 	width: 35vh;
 	height: 35vh;
 	background-color: #bad1e6;
+	cursor: pointer;
 }
 img.itemImg {
 	position: relative;
@@ -85,44 +86,46 @@ img.itemImg {
 	border-radius: 20px;
 	left: 0%; right: 0%; bottom: 0vh;
 	color: #354654;
-	cursor: pointer;
+	pointer-events: none;
 }
 .hovered {
 	background-color: white;
 }
 .itemName {
-	font-size: 5vh;
+	position: relative;
+	top: 1vh;
+	font-size: 4vh;
 	color: #26394a;
 }
 .itemDescription {
 	position: relative;
-	top: -4vh;
-	height: 20vh;
+	top: -2vh;
+	height: 22vh;
 	width: 100vh;
 	display: table-cell;
     vertical-align: middle;
-	font-size: 2.5vh;
+	font-size: 2vh;
 	overflow: hidden;
 }
 .itemPrice {
 	position: relative;
 	display: inline-block;
+	top: -3vh;
 	left: -7vh;
-	top: -5vh;
-	font-size: 2.5vh;
+	font-size: 2vh;
 }
 .itemRating {
 	position: relative;
 	display: inline-block;
-	top: -5.2vh;
+	top: -3.2vh;
 	left: 7vh;
-	font-size: 2vh;
+	font-size: 1.5vh;
 }
 img.ratingImg {
 	position: relative;
 	display: inline-block;
-	top: -4.7vh;
-	left: 7vh;
-	height: 3vh;
-	width: 3vh:
+	top: -2.5vh;
+	left: 7.5vh;
+	height: 2.5vh;
+	width: 2.5vh:
 }

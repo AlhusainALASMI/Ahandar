@@ -58,7 +58,7 @@
 	background-color: #ebf5ff;
 	transition-duration: 0.4s;
 }
-li a {
+li.liSuggest a.aSuggest {
 	display: block;
 	border-radius: 10px;
 	padding: 2vh 4vh;
@@ -67,7 +67,7 @@ li a {
 	font-size: 3vh;
 	transition: background-color 0.2s ease;
 }
-li a:hover {
+li.liSuggest a.aSuggest:hover {
 	background-color: #6d8094;
 	color: white;
 }

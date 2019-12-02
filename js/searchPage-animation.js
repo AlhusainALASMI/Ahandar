@@ -12,8 +12,9 @@ $(document).ready(function() {
 	productNames = Object.keys(productInfo[0]);
 
 
-	toggleInfos();
+
 	populatePage();
+	toggleInfos();
 	
 	});
 
@@ -26,7 +27,6 @@ function toggleInfos() {
 
 	//blur product and toggle infos on hover
 	$(".item").mouseenter(function() {
-		console.log("entrée");
 		blurElement(this.children[0], 10);
 		$(this.children[0]).animate({"opacity": "0.3"});
 		$(this.children[1]).animate({
@@ -65,9 +65,14 @@ function blurElement(element, size) {
 //get products match (off URL query) and displays them on searchPage
 function populatePage() {
 
+	var resultTotal = 0; //How many products were found (incremented when a product is found)
+
 	for (var p = 0; p <= productNames.length-1; p++) {
 		if (productNames[p].startsWith(productParam)) {
-			
+
+			resultTotal = resultTotal + 1;
+			console.log(productNames[p]);
+
 			//set variables p = product
 			const pName = productNames[p];
 			const pImage = data[0][pName][0].image;
@@ -78,15 +83,17 @@ function populatePage() {
 			//populate each product with info
 			$(".itemContainer").append(
 				"<div class='item'>"+
-					"<img class='itemImg' src='" + pImage + "'>"+
+					"<a href=productPage.html?q=" + pName + "><img class='itemImg' src='" + pImage + "'></a>"+
 					"<div class='itemInfo'>"+
 						"<p class='itemName'><strong>" + pName + "</strong></p>"+
 						"<p class=itemDescription>" + pDescription + "</p>"+
-						"<p class='itemPrice'><i>" + pPrice + "</i></p>"+
+						"<p class='itemPrice'><i>" + pPrice + "€</i></p>"+
 						"<p class='itemRating'>" + pRating + "/5</p>"+
 						"<img class='ratingImg' src='images/star.png'>"+
 					"</div>"+
 				"</div>")
 		}
 	}
+	//Return how many products were found
+	$(".result").prepend("<i>" + resultTotal + " résultats trouvés pour : ");
 }

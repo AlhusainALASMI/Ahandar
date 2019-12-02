@@ -24,39 +24,19 @@
 
 		<div class="resultContainer">
 			
-			<div class="result" id="result"><i>Résultats pour :
+			<!------------ Number of results in page ----------->
+			<div class="result" id="result">
+				<h2 id="query"></h2>
 				<!-- GET QUERY from URL --->
 				<script type="text/javascript"> 
 					const urlParams = new URLSearchParams(window.location.search);
 					const myParam = urlParams.get("q");
-					document.getElementById("result").innerHTML += myParam
+					document.getElementById("query").innerHTML += myParam
 				</script>
 			</i></div>
 
 			<!------ ITEM LIST ------>
-			<div class="itemContainer">
-				
-				<div class="item">
-					<img class="itemImg" src="images/products/avinco.png">
-					<div class="itemInfo">
-						<p class="itemName"><strong>webextension</strong></p>
-						<p class="itemDescription">Pas mal pas mal</p>
-						<p class="itemPrice"><i>29.99€</i></p>
-						<p class="itemRating">3/5</p>
-						<img class="ratingImg" src="images/star.png">
-					</div>
-				</div>
-
-				<div class="item">
-					<img class="itemImg" src="images/products/anubis.png">
-					<div class="itemInfo">
-						<p class="itemName"><strong>anubis</strong></p>
-						<p class="itemDescription">Protection internationanle des droits de l'homme et du citoyen</p>
-						<p class="itemPrice">1.99€</p>
-						<p class="itemRating">3/5</p>
-						<img class="ratingImg" src="images/star.png">
-					</div>
-				</div>
+			<div class="itemContainer"> <!-- Populated by jQuery -->
 			</div>
 
 		</div>
