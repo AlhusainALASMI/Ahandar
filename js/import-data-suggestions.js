@@ -44,7 +44,7 @@ function enableInfos() {
 			$("#title").append(pName);
 			$(".image").attr("src", pImage);
 			$(".price").append(pPrice + "€");
-			$(".description").append("Description: " + pDescription);
+			$(".description").append(pDescription);
 
 
 			//Feedback

@@ -77,7 +77,7 @@ function populatePage() {
 			const pName = productNames[p];
 			const pImage = data[0][pName][0].image;
 			const pPrice = data[0][pName][0].price;
-			const pDescription = data[0][pName][0].description;
+			const pResume = data[0][pName][0].resume;
 			const pRating = data[0][pName][0].etoiles;
 			
 			//populate each product with info
@@ -86,7 +86,7 @@ function populatePage() {
 					"<a href=productPage.html?q=" + pName + "><img class='itemImg' src='" + pImage + "'></a>"+
 					"<div class='itemInfo'>"+
 						"<p class='itemName'><strong>" + pName + "</strong></p>"+
-						"<p class=itemDescription>" + pDescription + "</p>"+
+						"<p class=itemDescription>" + pResume + "</p>"+
 						"<p class='itemPrice'><i>" + pPrice + "€</i></p>"+
 						"<p class='itemRating'>" + pRating + "/5</p>"+
 						"<img class='ratingImg' src='images/star.png'>"+
