@@ -1,14 +1,31 @@
 {
-    "jfall": [
+    "passlock": [
+        {
+            "image": "images\/products\/passwordmanager.png",
+            "price": "9.99",
+            "resume": "Password Manager sécurisé qui vous permet de stocler vos mots de passes sans se soucier de les oublier",
+            "description": "<strong>Passlock</strong> est un Password Manager qui gère vos mots de passes de façon sécurisée.<br/>Avec Passlock, plus besoin de se souvenir ou de noter chaque mot de passe utilisé ! En quelques clics seulement, vous pourrez récupérer vos identifiants et vous connecter comme d'habitude, en toute sécurité.<br/><br/><i>Pour un maximum d'avantage, vous pouvez également acheter <strong>Cumulus</strong>, le service Cloud d'Ahangar, et avoir accès à vos mot de passes où que vous soyez.</i>",
+            "etoiles": "4.3",
+            "evaluation": [
+                {
+                    "user": "Anhau",
+                    "comment": "très satisfait. le cloud fait bien la paire",
+                    "note": "5\/5"
+                }
+            ],
+            "category": "globale\/antivirus"
+        }
+    ],
+    "fjallraven": [
         {
             "image": "images\/products\/fjall.png",
             "price": "69.69",
-            "description": "Fjall est un produit su\u00e9dois de luxe, id\u00e9al pour forniquer sa voisine",
+            "description": "Fjall est un produit su\u00e9dois de luxe, oui",
             "etoiles": "4.3",
             "evaluation": [
                 {
                     "user": "idfua",
-                    "comment": "jfall, parce que j'ai reussi a la bz",
+                    "comment": "jfall ou fjall",
                     "note": "5\/5"
                 }
             ],
@@ -61,6 +78,11 @@
                 {
                     "user": "Oui",
                     "comment": "J'ai pas mal aim\u00e9",
+                    "note": "5\/5"
+                },
+                {
+                    "user": "Jahooda",
+                    "comment": "Cool, pas cher, mieux que sur Wish",
                     "note": "5\/5"
                 }
             ],

@@ -1,0 +1,70 @@
+/*--------- GENERAL -------------*/
+@font-face {
+	font-family: GeorgeCafe;
+	src: url(../fonts/LouisGeorgeCafe.ttf);
+}
+body {
+	font-family: GeorgeCafe;
+}
+
+html {
+	height: 100%;
+}
+
+/*------------- ARRIERE PLAN ----------------*/
+.background {
+	background-position: fixed;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*------------- PRESENTATION ----------------*/
+.aboutUs {
+	position: absolute;
+	top: 115%;
+	left: 0; right: 0;
+	transform: skew(0deg, -5deg);
+	height: 170vh;
+	background: linear-gradient(#dbbba7, #b38e78);
+	border-top: 4vh solid #8c6f5e;
+}
+img.officeImg {
+	position: absolute;
+	right: -10vh;
+	height: 100%;
+	width: 40vw;
+	border-left: 4vh solid #8c6f5e;
+
+}
+.presentation {
+	text-align: left;
+	padding-left: 20%;
+	font-size: 5vw;
+	color: #8c6f5e;
+}
+.membres {
+	padding-top: 5vh;
+	padding-left: 5vh;
+	color: #40342d;
+	font-size: 2vw;
+}
+
+
+/*------------- CV ----------------*/
+.cv {
+	position: relative;
+	top: 60%;
+	left: 0; right: 0;
+	transform: skew(0deg, 10deg);
+	height: 200vh;
+	background: linear-gradient(#c5ede9, #99c4c0);
+	border-top: 4vh solid #81b3ad;
+}
+.cvTxt {
+	text-align: center;
+	font-size: 5vw;
+	color: #81b3ad;
+
+}
+/*------- cv leo ----------*/

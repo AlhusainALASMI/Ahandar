@@ -44,7 +44,7 @@ function enableInfos() {
 			$("#title").append(pName);
 			$(".image").attr("src", pImage);
 			$(".price").append(pPrice + "€");
-			$(".description").append("Description: " + pDescription);
+			$(".description").append(pDescription);
 
 
 			//Feedback
@@ -86,8 +86,8 @@ function checkMatch() {
 
 			for (const k in dataNames) { //For all elements in array (names)
 				if (dataNames[k].startsWith(search)) { //If query matches names beginning
-					$(".suggest").append("<li><a href='productPage.html?q=" + dataNames[k] + "'>" + dataNames[k] + "</a></li>");
-				}
+					$(".suggest").append("<li class='liSuggest'><a class='aSuggest' href='productPage.html?q=" + dataNames[k] + "'>" + dataNames[k] + "</a></li>");
+				}	//Append <li> & <a> with "suggest" classes > Avoid navbar conflict on css
 			}
 		}
 	}
