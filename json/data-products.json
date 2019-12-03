@@ -2,9 +2,9 @@
     "passlock": [
         {
             "image": "images\/products\/passwordmanager.png",
-            "price": "9.99",
-            "resume": "Password Manager sécurisé qui vous permet de stocler vos mots de passes sans se soucier de les oublier",
-            "description": "<strong>Passlock</strong> est un Password Manager qui gère vos mots de passes de façon sécurisée.<br/>Avec Passlock, plus besoin de se souvenir ou de noter chaque mot de passe utilisé ! En quelques clics seulement, vous pourrez récupérer vos identifiants et vous connecter comme d'habitude, en toute sécurité.<br/><br/><i>Pour un maximum d'avantage, vous pouvez également acheter <strong>Cumulus</strong>, le service Cloud d'Ahangar, et avoir accès à vos mot de passes où que vous soyez.</i>",
+            "price": "9.99€",
+            "resume": "Password Manager sécurisé qui vous permet de stocker vos mots de passes sans se soucier de les oublier",
+            "description": "<strong>Passlock</strong> est un Password Manager qui gère vos mots de passes de façon sécurisée.<br/>Avec Passlock, plus besoin de se souvenir ou de noter chaque mot de passe utilisé ! En quelques clics seulement, vous pourrez récupérer vos identifiants et vous connecter comme d'habitude, en toute sécurité.<br/><br/><i>Pour un maximum d'avantage, vous pouvez également acheter <strong>Cumulus</strong>, le service Cloud d'Ahandar, et avoir accès à vos mot de passes où que vous soyez.</i>",
             "etoiles": "4.3",
             "evaluation": [
                 {
@@ -16,10 +16,62 @@
             "category": "globale\/antivirus"
         }
     ],
+    "cumulus": [
+        {
+            "image": "images\/products\/cumulus.png",
+            "price": "3.99€/mois",
+            "resume": "Service Cloud Ahandar, amenez votre protection partout où vous allez",
+            "description": "<strong>Cumulus</strong> est un sercice Cloud qui vous permet d'emporter toute la gamme des produits Ahandar où que vous alliez.<br/>Cumulus se synchronise avec Passlock, Avinco, AvincoPremium et Anubis.<br/><br/>Où que vous soyez, récupérez vos mots de passes, ré-installez vos produits Ahandar en quelques clics sans vous soucier de l'activation des produits, et récupérer vos paramètres d'applications déjà enregistrés dans Cumulus.",
+            "etoiles": "4.3",
+            "evaluation": [
+                {
+                    "user": "parfait1234",
+                    "comment": "parfait !",
+                    "note": "5\/5"
+                }
+            ],
+            "category": "globale\/antivirus"
+        }
+    ],
+    "logky": [
+        {
+            "image": "images\/products\/logky.png",
+            "price": "24.99€",
+            "resume": "Anti-keylogger discret qui empêche des programmes malveillants d'enregistrer les touches de votre clavier.",
+            "description": "<strong>Logky</strong> est un anti-keylogger, qui filtre l'accès des programmes aux touches de votre clavier.<br/>Sa base de données est mise à jour de façon régulière et discrète pour s'informer des toutes dernières failles, et ainsi vous assurer une protection maximale sans pour autant être intrusif.<br/><br/><i>Logky n'enregistre pas vos touches, il fitre l'accès. Aucune donnée n'est recueillie lors de son éxecution.</i>",
+            "etoiles": "4.3",
+            "evaluation": [
+                {
+                    "user": "le_blackhat_du_98",
+                    "comment": "IL N'ENREGIStRE PAS LES TOUCHE ARNAQUE NUL NUL;; A FUIR",
+                    "note": "1\/5"
+                }
+            ],
+            "category": "globale\/antivirus"
+        }
+    ],
+    "robinsomware": [
+        {
+            "image": "images\/products\/robinsomware.png",
+            "price": "49.99€",
+            "resume": "Anti-ransomware puissant qui vous protège d'une encryption complète de votre ordinateur.",
+            "description": "<strong>Robinsomware</strong> est un anti-keylogger, qui filtre l'accès des programmes aux touches de votre clavier.<br/>Sa base de données est mise à jour de façon régulière et discrète pour s'informer des toutes dernières failles, et ainsi vous assurer une protection maximale sans pour autant être intrusif.<br/><br/><i>Logky n'enregistre pas vos touches, il fitre l'accès. Aucune donnée n'est recueillie lors de son éxecution.</i>",
+            "etoiles": "4.3",
+            "evaluation": [
+                {
+                    "user": "le_blackhat_du_98",
+                    "comment": "IL N'ENREGIStRE PAS LES TOUCHE ARNAQUE NUL NUL;; A FUIR",
+                    "note": "1\/5"
+                }
+            ],
+            "category": "globale\/antivirus"
+        }
+    ],
     "fjallraven": [
         {
             "image": "images\/products\/fjall.png",
-            "price": "69.69",
+            "price": "69.69€",
+            "resume": "Password Manager sécurisé qui vous permet de stocker vos mots de passes sans se soucier de les oublier",
             "description": "Fjall est un produit su\u00e9dois de luxe, oui",
             "etoiles": "4.3",
             "evaluation": [
@@ -36,6 +88,7 @@
         {
             "image": "images\/products\/avinco.png",
             "price": "29.99",
+            "resume": "Password Manager sécurisé qui vous permet de stocker vos mots de passes sans se soucier de les oublier",
             "description": "antivirus polyvalent cheap",
             "etoiles": "4.1",
             "evaluation": [
@@ -62,6 +115,7 @@
         {
             "image": "images\/products\/anubis.png",
             "price": "79.99",
+            "resume": "Password Manager sécurisé qui vous permet de stocker vos mots de passes sans se soucier de les oublier",
             "description": "antivirus complet",
             "etoiles": "4.8",
             "evaluation": [
@@ -93,6 +147,7 @@
         {
             "image": "images\/products\/avincoPremium.png",
             "price": "99.99",
+            "resume": "Password Manager sécurisé qui vous permet de stocker vos mots de passes sans se soucier de les oublier",
             "description": "antivirus premium complet",
             "etoiles": "3.7",
             "evaluation": [
@@ -114,6 +169,7 @@
         {
             "image": "images\/products\/haroft.png",
             "price": "139.99",
+            "resume": "Password Manager sécurisé qui vous permet de stocker vos mots de passes sans se soucier de les oublier",
             "description": "package simple complet",
             "etoiles": "4.8",
             "evaluation": [],
@@ -124,6 +180,7 @@
         {
             "image": "images\/products\/webextension.png",
             "price": "9.99",
+            "resume": "Password Manager sécurisé qui vous permet de stocker vos mots de passes sans se soucier de les oublier",
             "description": "protection web basic",
             "evaluation": [],
             "category": "internet\/web-extension"

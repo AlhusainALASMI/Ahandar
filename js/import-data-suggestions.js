@@ -43,7 +43,7 @@ function enableInfos() {
 			$(".invalidParamVoile").hide();
 			$("#title").append(pName);
 			$(".image").attr("src", pImage);
-			$(".price").append(pPrice + "€");
+			$(".price").append(pPrice);
 			$(".description").append(pDescription);
 
 

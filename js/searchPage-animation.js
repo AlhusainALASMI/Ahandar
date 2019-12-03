@@ -87,7 +87,7 @@ function populatePage() {
 					"<div class='itemInfo'>"+
 						"<p class='itemName'><strong>" + pName + "</strong></p>"+
 						"<p class=itemDescription>" + pResume + "</p>"+
-						"<p class='itemPrice'><i>" + pPrice + "€</i></p>"+
+						"<p class='itemPrice'><i>" + pPrice + "</i></p>"+
 						"<p class='itemRating'>" + pRating + "/5</p>"+
 						"<img class='ratingImg' src='images/star.png'>"+
 					"</div>"+
