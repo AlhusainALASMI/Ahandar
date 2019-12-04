@@ -87,7 +87,7 @@
     "avinco": [
         {
             "image": "images\/products\/avinco.png",
-            "price": "29.99",
+            "price": "29.99€",
             "resume": "Password Manager sécurisé qui vous permet de stocker vos mots de passes sans se soucier de les oublier",
             "description": "antivirus polyvalent cheap",
             "etoiles": "4.1",
@@ -114,7 +114,7 @@
     "anubis": [
         {
             "image": "images\/products\/anubis.png",
-            "price": "79.99",
+            "price": "79.99€",
             "resume": "Password Manager sécurisé qui vous permet de stocker vos mots de passes sans se soucier de les oublier",
             "description": "antivirus complet",
             "etoiles": "4.8",
@@ -146,7 +146,7 @@
     "avincoPremium": [
         {
             "image": "images\/products\/avincoPremium.png",
-            "price": "99.99",
+            "price": "99.99€",
             "resume": "Password Manager sécurisé qui vous permet de stocker vos mots de passes sans se soucier de les oublier",
             "description": "antivirus premium complet",
             "etoiles": "3.7",
@@ -168,7 +168,7 @@
     "haroft all-in-one": [
         {
             "image": "images\/products\/haroft.png",
-            "price": "139.99",
+            "price": "139.99€",
             "resume": "Password Manager sécurisé qui vous permet de stocker vos mots de passes sans se soucier de les oublier",
             "description": "package simple complet",
             "etoiles": "4.8",
@@ -179,7 +179,7 @@
     "webextension": [
         {
             "image": "images\/products\/webextension.png",
-            "price": "9.99",
+            "price": "9.99€",
             "resume": "Password Manager sécurisé qui vous permet de stocker vos mots de passes sans se soucier de les oublier",
             "description": "protection web basic",
             "evaluation": [],

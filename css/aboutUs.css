@@ -40,17 +40,35 @@ img.coffeeImg {
 	top: 5vh;
 	height: 25vw;
 	right : 10%;
+	transition-duration: 0.4s;
 }
-img.documentsImg {
+img.coffeeImg:hover {
+	transform: translate(15px);
+}
+img.document1Img {
+	position: absolute;
+	height: 60vw;
+	left : 20%;
+}
+img.document2Img {
 	position: absolute;
 	height: 60vw;
 	left : 5%;
+	transition-duration: 0.4s;
+}
+img.document2Img:hover {
+	transform: rotate(-5deg);
 }
 img.glassesImg {
 	position: absolute;
 	top: 60vw;
 	height: 30vw;
 	left : 12%;
+	transition-duration: 0.4s;
+}
+img.glassesImg:hover {
+	transform: rotate(3deg) translate(-20px);
+
 }
 img.presentationImg {
 	position: absolute;
