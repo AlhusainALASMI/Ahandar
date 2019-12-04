@@ -11,60 +11,56 @@ html {
 	height: 100%;
 }
 
-/*------------- ARRIERE PLAN ----------------*/
+/*------------- ARRIERE PLAN / VOILE----------------*/
 .background {
 	background-position: fixed;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+img.loadVoile {
+	position: fixed;
+	top: 0%;
+	z-index: 1;
+	left: 0%; right: 0%;
+}
 
 /*------------- PRESENTATION ----------------*/
 .aboutUs {
 	position: absolute;
-	top: 115%;
-	left: 0; right: 0;
-	transform: skew(0deg, -5deg);
-	height: 170vh;
-	background: linear-gradient(#dbbba7, #b38e78);
-	border-top: 4vh solid #8c6f5e;
+	top: 10vh;
+	left: 0%; right: 0%;
+	height: 80vh;
+	background-color: transparent;
 }
-img.officeImg {
+
+/*---------------- IMAGES ------------------*/
+img.coffeeImg {
 	position: absolute;
-	right: -10vh;
-	height: 100%;
-	width: 40vw;
-	border-left: 4vh solid #8c6f5e;
-
+	top: 5vh;
+	height: 25vw;
+	right : 10%;
 }
-.presentation {
-	text-align: left;
-	padding-left: 20%;
-	font-size: 5vw;
-	color: #8c6f5e;
+img.documentsImg {
+	position: absolute;
+	height: 60vw;
+	left : 5%;
 }
-.membres {
-	padding-top: 5vh;
-	padding-left: 5vh;
-	color: #40342d;
-	font-size: 2vw;
+img.glassesImg {
+	position: absolute;
+	top: 60vw;
+	height: 30vw;
+	left : 12%;
 }
-
-
-/*------------- CV ----------------*/
-.cv {
-	position: relative;
-	top: 60%;
-	left: 0; right: 0;
-	transform: skew(0deg, 10deg);
-	height: 200vh;
-	background: linear-gradient(#c5ede9, #99c4c0);
-	border-top: 4vh solid #81b3ad;
+img.presentationImg {
+	position: absolute;
+	top: 70vw;
+	height: 70vw;
+	right : 8%;
 }
-.cvTxt {
-	text-align: center;
-	font-size: 5vw;
-	color: #81b3ad;
-
+img.phoneImg {
+	position: absolute;
+	top: 120vw;
+	height: 25vw;
+	left : 15%;
 }
-/*------- cv leo ----------*/

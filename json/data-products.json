@@ -37,7 +37,7 @@
         {
             "image": "images\/products\/logky.png",
             "price": "24.99€",
-            "resume": "Anti-keylogger discret qui empêche des programmes malveillants d'enregistrer les touches de votre clavier.",
+            "resume": "Anti-keylogger discret qui empêche des programmes malveillants d'enregistrer les touches de votre clavier",
             "description": "<strong>Logky</strong> est un anti-keylogger, qui filtre l'accès des programmes aux touches de votre clavier.<br/>Sa base de données est mise à jour de façon régulière et discrète pour s'informer des toutes dernières failles, et ainsi vous assurer une protection maximale sans pour autant être intrusif.<br/><br/><i>Logky n'enregistre pas vos touches, il fitre l'accès. Aucune donnée n'est recueillie lors de son éxecution.</i>",
             "etoiles": "4.3",
             "evaluation": [
@@ -54,12 +54,12 @@
         {
             "image": "images\/products\/robinsomware.png",
             "price": "49.99€",
-            "resume": "Anti-ransomware puissant qui vous protège d'une encryption complète de votre ordinateur.",
-            "description": "<strong>Robinsomware</strong> est un anti-keylogger, qui filtre l'accès des programmes aux touches de votre clavier.<br/>Sa base de données est mise à jour de façon régulière et discrète pour s'informer des toutes dernières failles, et ainsi vous assurer une protection maximale sans pour autant être intrusif.<br/><br/><i>Logky n'enregistre pas vos touches, il fitre l'accès. Aucune donnée n'est recueillie lors de son éxecution.</i>",
-            "etoiles": "4.3",
+            "resume": "Anti-ransomware puissant qui vous protège d'une encryption complète de votre ordinateur",
+            "description": "<strong>Robinsomware</strong> est un anti-ransomware qui vous protège vos données des virus de rançons.<br/>Une fois installé, Robinsomware va se dissimuler dans les fichiers les plus visés par ces menaces, et pourra alors récupérer l'encryption qu'il subit lors d'une attaque, et vous proposera ensuite de lancer une décryption de l'ordinateur<br/><br/><i><strong>Attention ! Robinsomware ne garantit pas la décryption totale des données.</strong> Certains fichiers temporaires seront perdus, ce qui peut entraîner des pertes de sauvegardes, et des bugs d'applications.<br/>Il est éaglement vivement conseillé d'utiliser un antivirus de la gamme Ahandar en parallèle pour ensuite supprimer la menace de votre ordinateur.</i>",
+            "etoiles": "3",
             "evaluation": [
                 {
-                    "user": "le_blackhat_du_98",
+                    "user": "John. F",
                     "comment": "IL N'ENREGIStRE PAS LES TOUCHE ARNAQUE NUL NUL;; A FUIR",
                     "note": "1\/5"
                 }
