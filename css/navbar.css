@@ -22,14 +22,14 @@ img.indexImg {
 }
 img.indexImg:hover {
 	cursor: pointer;
-	background-color: #c1cbd9;
+	transform: rotate(-20deg);
 }
 
 /*------------- CATEGORIES -----------*/
 ul.ulNavbar {
 	margin: 0 auto;
-	padding: 0 5vh;
 	width: 100%;
+	padding: 0 6vh;
 	list-style-type: none;
 	overflow: hidden;
 }
@@ -38,16 +38,18 @@ li.liNavbar {
 }
 li.liNavbar a.aNavbar {
 	display: block;
-	padding: 0.7vh 14.3vh;
+	padding: 0.7vh 12.3vh;
 	font-size: 3vh;
 	color: #2b3a47;
 	text-decoration: none;
 	transition-duration: 0.2s;
 }
 li.liNavbar a.aNavbar:hover {
-	background-color: #c1cbd9;
-
+	background-color: #dae5f0;
+	transform: scale(1.03);
 }
+
+/*------------- MEDIA SCREEN -----------*/
 @media screen and (max-width : 1900px) {
 	li.liNavbar a.aNavbar {
 		padding: 0.7vh 9vh;
@@ -78,7 +80,7 @@ img.loupeImg {
 }
 img.loupeImg:hover {
 	cursor: pointer;
-	background-color: #c1cbd9;
+	transform: rotate(20deg);
 }
 
 /*-------------- MENU ------------*/
@@ -92,5 +94,9 @@ img.menuImg {
 }
 img.menuImg:hover {
 	cursor: pointer;
-	background-color: #c1cbd9;
+	transform: rotate(-20deg);
+}
+
+.rotate {
+	transform: rotate(360deg);
 }

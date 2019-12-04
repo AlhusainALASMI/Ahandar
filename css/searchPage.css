@@ -13,7 +13,7 @@ html {
 
 /*------------ ARRIERE PLAN -----------------*/
 .background {
-	background-color: #3e4e5c;
+	background-color: #dfeaf5;
 	background-attachment: local, scroll;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -26,7 +26,8 @@ html {
 	left: 0vh; right: 85%;
 	height: 100%;
 	border-radius: 20px;
-	background-color: #475969;
+	background-color: #e9f0f7;
+	box-shadow: 1px 1px 10px 3px #cad4de;
 }
 
 /*------------ RESULTATS -----------------*/
@@ -36,7 +37,8 @@ html {
 	left: 16%; right: 16%;
 	height: 16%;
 	border-radius: 20px;
-	background-color: #475969;
+	background-color: #e9f0f7;
+	box-shadow: 1px 1px 10px 3px #cad4de;
 }
 .result {
 	position: relative;
@@ -44,7 +46,7 @@ html {
 	left: 3%;
 	width: 100%;
 	font-size: 2.5vh;
-	color: #bacdde;
+	color: #44535c;
 
 	background-color: transparent;
 }
@@ -59,18 +61,19 @@ html {
 	overflow: scroll;
 	overflow-y: hidden;
 	overflow-x: hidden;
-	background-color: #b3cde3;
+	background-color: #cadded;
 	box-shadow: 1px 1px 10px 3px #b3cde3;
 }
 .item {
 	position: relative;
 	display: inline-block;
 	margin-top: 3vh; margin-left: 3vh;
-	border-radius: 20px;
 	width: 35vh;
 	height: 35vh;
-	background-color: #bad1e6;
+	border-radius: 30px;
+	background-color: #d0e3f2;
 	cursor: pointer;
+	transition-duration: 0.4s;
 }
 img.itemImg {
 	position: relative;
