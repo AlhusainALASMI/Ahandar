@@ -2,10 +2,10 @@
 <html>
 <head>
 	<script src="js/navbar-animation.js"></script>
-	<link rel="stylesheet" type="text/css" href="css/button_slider.css"> 
 	<link rel="stylesheet" type="text/css" href="css/navbar.css">
-	<link rel="stylesheet" type="text/css" href="css/search.css">
-	<link rel="stylesheet" type="text/css" href="css/menu.css">
+	<link rel="stylesheet" type="text/css" href="css/navbar/button_slider.css">
+	<link rel="stylesheet" type="text/css" href="css/navbar/search.css">
+	<link rel="stylesheet" type="text/css" href="css/navbar/menu.css">
 
 </head>
 <body>
@@ -18,9 +18,14 @@
 
 			<li class="liNavbar"><a class="aNavbar" href="news.html">Actualités</a></li>
 
-			<li class="liNavbar"><a class="aNavbar" href="about.html">À propos</a></li>
-
-			<li class="liNavbar"><a class="aNavbar" href="aboutUs.html">Qui sommes-nous ?</a></li>
+			<!-- Dropdown Menu -->
+			<li class="liNavbar aPropos">
+				<a class="aNavbar" href="">À propos</a>
+				<div class="dropdown"><!-- Options -->
+					<a class="aNavbar" href="aboutUs.html">Qui sommes-nous ?</a>
+					<a class="aNavbar" href="contact.html">Contactez-nous</a>
+				</div>
+			</li>			
 		</ul>
 
 		<img src="images/navbar/loupe.png" class="loupeImg">

@@ -1,4 +1,4 @@
-/*---------- NAVIGATION BARRE ----------------*/
+/*---------- NAVIGATION BARRE (principale) ----------------*/
 .navbar {
 	position: fixed;
 	z-index: 1;
@@ -10,6 +10,8 @@
 	background-color: #ebf5ff;
 	transition: background-color 0.4s ease;
 }
+
+
 
 /*-------------- INDEX ------------*/
 img.indexImg {
@@ -25,7 +27,9 @@ img.indexImg:hover {
 	transform: rotate(-20deg);
 }
 
-/*------------- CATEGORIES -----------*/
+
+
+/*------------- CATEGORIES (texte) -----------*/
 ul.ulNavbar {
 	margin: 0 auto;
 	width: 100%;
@@ -49,6 +53,52 @@ li.liNavbar a.aNavbar:hover {
 	transform: scale(1.03);
 }
 
+/*---------- Dropdown menu ---------*/
+.dropdown {
+	position: absolute;
+	display: none;
+	top: 5vh;
+	background-color: #ebf5ff;
+	transition-duration: 0.2s;
+}
+.aPropos:hover .dropdown {
+	display: block;
+}
+
+
+
+/*-------------- SEARCH ------------*/
+img.loupeImg {
+	position: absolute;
+	top: 0vh;
+	right: 5vh;
+	max-height: 5vh;
+	cursor: pointer;
+	transition-duration: 0.2s
+}
+img.loupeImg:hover {
+	cursor: pointer;
+	transform: rotate(20deg);
+}
+
+
+
+/*-------------- MENU ------------*/
+img.menuImg {
+	position: absolute;
+	top: 0vh;
+	right: 0vh;
+	max-height: 5vh;
+	cursor: pointer;
+	transition-duration: 0.2s
+}
+img.menuImg:hover {
+	cursor: pointer;
+	transform: rotate(-20deg);
+}
+
+
+
 /*------------- MEDIA SCREEN -----------*/
 @media screen and (max-width : 1900px) {
 	li.liNavbar a.aNavbar {
@@ -67,36 +117,4 @@ li.liNavbar a.aNavbar:hover {
 	li.liNavbar a.aNavbar {
 		padding: 0.7vh 20vh;
 	}
-}
-
-/*-------------- SEARCH ------------*/
-img.loupeImg {
-	position: absolute;
-	top: 0vh;
-	right: 5vh;
-	max-height: 5vh;
-	cursor: pointer;
-	transition-duration: 0.2s
-}
-img.loupeImg:hover {
-	cursor: pointer;
-	transform: rotate(20deg);
-}
-
-/*-------------- MENU ------------*/
-img.menuImg {
-	position: absolute;
-	top: 0vh;
-	right: 0vh;
-	max-height: 5vh;
-	cursor: pointer;
-	transition-duration: 0.2s
-}
-img.menuImg:hover {
-	cursor: pointer;
-	transform: rotate(-20deg);
-}
-
-.rotate {
-	transform: rotate(360deg);
 }

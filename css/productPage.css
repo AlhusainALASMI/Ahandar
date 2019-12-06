@@ -92,7 +92,7 @@ img.arrowImg {
 img.image {
 	position: absolute;
 	display: block;
-	margin: 2vh 2%;
+	margin: 1vh 2%;
 	width: 35%;
 }
 
@@ -154,7 +154,7 @@ img.image {
 	position: relative;
 	border-radius: 10px;
 	margin-bottom: 3vh;
-	background-color: #c1ded8;
+	background-color: #edf5ff;
 }
 .userFeedback {
 	position: relative;

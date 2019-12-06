@@ -47,6 +47,7 @@ img.logo {
 img.separation {
 	display: block;
 	margin: 0 auto;
+	margin-top: 10vh;
 	width: 50%;
 	opacity: 0;
 	filter: brightness(1);
@@ -63,7 +64,6 @@ img.separation:hover {
 	top: 10vh;
 	height: 1200px;
 }
-
 #stickyImg {
 	position: sticky;
 }
@@ -72,7 +72,6 @@ img.presentationImg {
 	max-height: 100%;
 	opacity: 0;
 }
-
 p.textePres {
 	display: inline;
 	position: relative;
