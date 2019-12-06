@@ -1,29 +1,52 @@
 $(document).ready(function() {
 
 	//------------------ Voile OnLoad ---------------------
-		$(".voile").delay(200).fadeOut(200);
+	$(".voile").delay(200).fadeOut(200);
 
 
 	//------------------- Fade-in logos -------------------
-		$("img.logo").delay(200).animate({
-			opacity: 1,
-			width: "50%"}, 800);
-		$("img.separation").delay(500).animate({opacity: 1}, 1000);
+	$("img.logo").delay(200).animate({
+		opacity: 1,
+		width: "50%"}, 800);
+	$("img.separation").delay(500).animate({opacity: 1}, 1000);
 
 	//----------------- Scroll to anchor ------------------
-		$("img.separation").click(function (){ //from separation to presentation1
-			$("body, html").animate({scrollTop: $("#presentation").offset().top -100}, 800);
-		});
+
+	//from Index to Presentation
+	$("img.separation").click(function (){ //from separation to presentation1
+		$("body, html").animate({
+			scrollTop: $(".presentation").offset().top -100
+		},800);
+	});
+
+	//from Presentation to Products Presentation
+	$("img.separation2").click(function (){ //from separation to presentation1
+		$("body, html").animate({
+			scrollTop: $(".presProduits").offset().top -100
+		},800);
+	});
 });
 
 
 $(window).scroll(function() {
 
 	//------------------- Fade-out scroll -------------------
-		$("img.logo").css("opacity", 1 - $(window).scrollTop() / 400); //Logo_home
-		$("img.separation").css("opacity", 1 - $(window).scrollTop() / 700); //Separation fleche
+	$("img.logo").css("opacity", 1 - $(window).scrollTop() / 400); //Logo_home
+		
 
 	//-------------------- Fade in-scroll --------------------
-		$("img.presentationImg").css("opacity", 0 + $(window).scrollTop() / 400); //Img Presentation
+	//Presentation
+	if ($(window).scrollTop() >= 300) {//
+		$(".presentation").css({"opacity": "1"});
+		$(".presentation").css({"margin-left": "0"});
+		console.log("BIM");
+	}
+
+	//Products Prensentation
+	if ($(window).scrollTop() >= 1200) {
+		$(".presProduits").css({"opacity": "1"});
+		$(".presProduits").css({"margin-right": "0"});
+		console.log("BIM");
+	}
 
 });
