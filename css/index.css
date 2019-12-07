@@ -30,10 +30,12 @@ html {
 	background-size: cover;
 }
 
+
+
 /*--------- IMAGES ACCUEIL ----------------*/
 #indexImages {
 	position: absolute;
-	top: 10vh;
+	top: 10vw;
 	left: 20vh;
 	right: 20vh;
 	bottom: 20vh;
@@ -58,24 +60,79 @@ img.separation:hover {
 	cursor: pointer;
 }
 
+
+
 /*------------- PRESENTATION --------------*/
-#presentation {
-	position: relative;
-	top: 10vh;
-	height: 1200px;
-}
-#stickyImg {
-	position: sticky;
-}
-img.presentationImg {
-	max-width: 100%;
-	max-height: 100%;
+.presentation {
+	position: absolute;
+	text-align: center;
+	top: 50vw; left: 0; right: 0;
+	margin-left: 100vh;
+	height: 100vw;
+	padding: 2vw;
 	opacity: 0;
+	background-color: #ebf5ff;
+	border-top: 5px solid #1D3A59;
+	transition-duration: 1s;
 }
-p.textePres {
-	display: inline;
+h1.titlePresentation {
+	font-size: 3vw;
+	color: #1d3a59;
+	cursor: default;
+}
+
+.votreSecurite, .notreMission { /*Change couleurs "Securité" & "Mission"*/
+	transition-duration: 0.4s;
+}.votreSecurite:hover {
+	transition-duration: 0.4s;
+	color: #378a88;
+}.notreMission:hover {
+	transition-duration: 0.4s;
+	color: #8a3762;
+}
+
+p.textePresentation {
 	position: relative;
-	top: 50px;
-	left: 50px;
-	font-size: 60pt;
+	color: #617487;
+	font-size: 1.3vw;
+	border-bottom: 2px solid grey;
+}
+
+/*-- image separation --*/
+img.separation2 {
+	display: block;
+	margin: 0 auto;
+	width: 50%;
+	opacity: 1;
+	filter: brightness(1);
+	cursor: pointer;
+}
+img.separation2:hover {
+	filter: brightness(0.5);
+	cursor: pointer;
+}
+
+
+
+/*------------- PRESENTATION PRODUITS--------------*/
+.presProduits {
+	position: absolute;
+	top: 100vw; left: 0; right: 0;
+	margin-right: 100vh;
+	height: 50vw;
+	padding: 2vw;
+	opacity: 0;
+	background-color: grey;
+	transition-duration: 1s;	
+}
+
+
+
+/*------------- KEYFRAMES animation --------------*/
+
+
+@keyframes pulseColor {
+	0% {}
+	50% {color: #5b80a8;}
+	100% {}
 }
