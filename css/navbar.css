@@ -4,11 +4,12 @@
 	z-index: 1;
 	top: 0vh;
 	left: 0vh;
-	height: 5vh;
+	height: 2.5vw;
 	width: 100%;
 	opacity: 0;
 	background-color: #ebf5ff;
 	transition: background-color 0.4s ease;
+	filter: invert(0);
 }
 
 
@@ -18,7 +19,7 @@ img.indexImg {
 	position: absolute;
 	top: 0vh;
 	left: 0vh;
-	max-height: 5vh;
+	max-height: 2.5vw;
 	cursor: pointer;
 	transition-duration: 0.2s
 }
@@ -33,7 +34,7 @@ img.indexImg:hover {
 ul.ulNavbar {
 	margin: 0 auto;
 	width: 100%;
-	padding: 0 6vh;
+	padding: 0 3vw;
 	list-style-type: none;
 	overflow: hidden;
 }
@@ -42,8 +43,8 @@ li.liNavbar {
 }
 li.liNavbar a.aNavbar {
 	display: block;
-	padding: 0.7vh 12.3vh;
-	font-size: 3vh;
+	padding: 0.35vw 10vw;
+	font-size: 1.6vw;
 	color: #2b3a47;
 	text-decoration: none;
 	transition-duration: 0.2s;
@@ -57,7 +58,7 @@ li.liNavbar a.aNavbar:hover {
 .dropdown {
 	position: absolute;
 	display: none;
-	top: 5vh;
+	top: 2.5vw;
 	background-color: #ebf5ff;
 	transition-duration: 0.2s;
 }
@@ -71,8 +72,8 @@ li.liNavbar a.aNavbar:hover {
 img.loupeImg {
 	position: absolute;
 	top: 0vh;
-	right: 5vh;
-	max-height: 5vh;
+	right: 2.5vw;
+	max-height: 2.5vw;
 	cursor: pointer;
 	transition-duration: 0.2s
 }
@@ -86,35 +87,13 @@ img.loupeImg:hover {
 /*-------------- MENU ------------*/
 img.menuImg {
 	position: absolute;
-	top: 0vh;
-	right: 0vh;
-	max-height: 5vh;
+	top: 0;
+	right: 0;
+	max-height: 2.5vw;
 	cursor: pointer;
 	transition-duration: 0.2s
 }
 img.menuImg:hover {
 	cursor: pointer;
 	transform: rotate(-20deg);
-}
-
-
-
-/*------------- MEDIA SCREEN -----------*/
-@media screen and (max-width : 1900px) {
-	li.liNavbar a.aNavbar {
-		padding: 0.7vh 9vh;
-	}
-}
-@media screen and (max-width : 1450px) {
-	li.liNavbar a.aNavbar {
-		padding: 0.7vh 5vh;
-	}
-}
-@media screen and (max-width : 1100px) {
-	.navbar {
-		height: 20vh;
-	}
-	li.liNavbar a.aNavbar {
-		padding: 0.7vh 20vh;
-	}
 }

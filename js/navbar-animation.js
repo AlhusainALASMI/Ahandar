@@ -4,24 +4,21 @@ $(document).ready(function() {
 	$(".navbar").animate({"opacity": 1}, 1000);
 
 //------------------- SEARCH ----------------------------
+	$(".searchPanel").hide(); //Cache la recherche pour l'activer plus tard
+
 	//Ouvrir searchPanel
 	$("img.loupeImg").click(function() {
 		$(".suggest").empty(); //Efface les suggestions
 		$(".search").val(""); //Efface le texte de recherche
-		$(".searchPanel").delay(1000).toggleClass("active", 1000);
+		$(".searchPanel").slideToggle(400);
+		//$(".searchPanel").css({"top": "3vw"});
 		$(".search").focus();
-
-	});
-	
-	//Fade in Fade out trait sous le texte
-	$(".search").focus(function() {
-		$(".decorationSearch").css({"opacity": 1}, 1000);
 	});
 
 	//Fermer searchPanel (perte de focus)
 	$(".search").blur(function() {
-		$(".searchPanel").toggleClass("active", 1000);
-		$(".decorationSearch").css({"opacity": 0}, 1000);
+		$(".searchPanel").slideToggle(400);
+		//$(".searchPanel").css({"top": "-10vw"});
 	});
 
 
@@ -30,6 +27,11 @@ $(document).ready(function() {
 	$("img.menuImg").click(function() {
 		$(".menuPanel").toggleClass("active", 1000);
 	});
+
+	//Fermer menuPanel (perte de focus)
+	$(".menuPanel").blur(function() {
+		$(".menuPanel").toggleClass("active", 1000);
+	})
 	
 //-------------------------------------- Jour / Nuit (checkbox) -----------------------------------
 	$(".switch input").prop("checked", false);	//Decoche la checkbox jour/nuit
@@ -39,39 +41,16 @@ $(document).ready(function() {
 			//NIGHT MODE
 		if ($(".checkboxClass").is(':checked')) {
 			$("img.logo").css({"filter": "invert(1)"}); //logo inverted nuit
-			
-			$(".background").css({"background-image": "url(images/bg_index_nuit.png)"}); //background nuit
-			
-			$(".navbar").css({"background-color": "#3e4b61"}, 1000); // navbar nuit
-				$("img.indexImg").css({"filter": "invert(1)"}); //index inverted nuit
-				$("img.loupeImg").css({"filter": "invert(1)"}); //loupe inverted nuit
-				$("img.menuImg").css({"filter": "invert(1)"}); //menu inverted nuit
-				
-				$(".searchPanel").css({"background-color": "#3e4b61"}); //search box nuit
-
-					$(".search").css({"color": "#dae1ed"}); //search text nuit
-						$(".decorationSearch").css({"color": "#dae1ed"}); //search decoration nuit
-				
-				$(".menuPanel").css({"background-color": "#505f7a"}); //menu nuit
-					$(".switchText").text("Mode nuit: Activé"); //texte slider activé nuit
+			$(".background").css({"background-image": "url(images/index/bg_index_nuit.png)"}); //background nuit
+			$(".navbar").css({"filter": "invert(1)"}, 1000);
+			$(".switchText").text("Mode nuit: Activé"); //texte slider activé nuit
 
 			//DAY MODE
 		} else {
 			$("img.logo").css({"filter": "invert(0)"}); //logo normal jour
-			
-			$(".background").css({"background-image": "url(images/bg_index.png)"}); //background jour
-			
-			$(".navbar").css({"background-color": "#ebf5ff"}); //navbar jour
-				$("img.indexImg").css({"filter": "invert(0)"}); //index normal jour
-				$("img.loupeImg").css({"filter": "invert(0)"});//loupe normal jour
-				$("img.menuImg").css({"filter": "invert(0)"});//menu normal jour
-				
-				$(".searchPanel").css({"background-color": "#ebf5ff"}); //search box jour
-					$(".search").css({"color": "#3e4b61"}); //search text jour
-						$(".decorationSearch").css({"color": "#5f6f73"}); //search decoration jour
-				
-				$(".menuPanel").css({"background-color": "#f6ebf7"}); //menu jour
-					$(".switchText").text("Mode nuit: Désactivé"); //texte slider désactivé jour
+			$(".background").css({"background-image": "url(images/index/bg_index.png)"}); //background jour
+			$(".navbar").css({"filter": "invert(0)"});
+			$(".switchText").text("Mode nuit: Désactivé"); //texte slider désactivé jour
 
 		}
 	});

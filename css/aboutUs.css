@@ -20,9 +20,11 @@ html {
 }
 img.loadVoile {
 	position: fixed;
-	top: 0%;
+	display: block;
+	top: 0; left: 0;
+	height: 100%;
+	width: 100%;
 	z-index: 1;
-	left: 0%; right: 0%;
 }
 
 /*------------- PRESENTATION ----------------*/
@@ -47,14 +49,12 @@ img.coffeeImg {
 img.coffeeImg:hover {
 	transform: translate(15px);
 	cursor: pointer;
-	filter: blur(5px);
 }
 .teamTxt {
 	position: absolute;
 	top: 0vh;
 	right : 10%;
 	width: 15vw; height: 2.5vw;
-	opacity: 0;
 	font-size: 2vw;
 	text-align: center;
 	color: white;
@@ -66,8 +66,8 @@ img.coffeeImg:hover {
 .teamTxtFull {
 	position: absolute;
 	top: 7vh;
-	right : 7%;
-	height: 16vw; width: 20vw;
+	right : 4%;
+	height: 25vw; width: 23vw;
 	opacity: 0;
 	font-size: 1vw;
 	padding: 1vw;
@@ -91,17 +91,13 @@ img.document2Img {
 }
 img.document2Img:hover {
 	transform: rotate(5deg);
-	cursor: pointer;
-	filter: blur(5px);
-}
-.story {
+	cursor: default;
 }
 .storyTxt {
 	position: absolute;
 	top: 1vw;
 	left : 16%;
 	width: 15vw; height: 2.5vw;
-	opacity: 0;
 	font-size: 2vw;
 	text-align: center;
 	color: white;

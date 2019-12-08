@@ -5,22 +5,16 @@ $(document).ready(function() {
 
 
 
-	//HOVER IMAGES
-
+	//HOVER IMAGES > text
+	
 	//coffee / team
 	$("img.coffeeImg").on({
 		mouseenter: function() {
-			$(".teamTxt").css({
-				"right": "11%",
-				"opacity": 1
-			});
+			$(".teamTxt").css({"right": "11%"});
 			$(".teamTxtFull").css({"opacity": 0.8});
 		},
 		mouseleave: function() {
-			$(".teamTxt").css({
-				"right": "10%",
-				"opacity": 0
-			});
+			$(".teamTxt").css({"right": "10%"});
 			$(".teamTxtFull").css({"opacity": 0});	
 		}
 	});
@@ -30,7 +24,6 @@ $(document).ready(function() {
 		mouseenter: function() {
 			$(".storyTxt").css({
 				"right": "11%",
-				"opacity": 1,
 				"left": "15%"
 			});
 			$(".storyTxtFull").css({
@@ -41,7 +34,6 @@ $(document).ready(function() {
 		mouseleave: function() {
 			$(".storyTxt").css({
 				"right": "10%",
-				"opacity": 0,
 				"left": "16%"
 			});
 			$(".storyTxtFull").css({

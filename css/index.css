@@ -36,9 +36,9 @@ html {
 #indexImages {
 	position: absolute;
 	top: 10vw;
-	left: 20vh;
-	right: 20vh;
-	bottom: 20vh;
+	left: 20vw;
+	right: 20vw;
+	bottom: 20vw;
 }
 img.logo {
 	display: block;
@@ -49,11 +49,11 @@ img.logo {
 img.separation {
 	display: block;
 	margin: 0 auto;
-	margin-top: 10vh;
 	width: 50%;
 	opacity: 0;
 	filter: brightness(1);
 	cursor: pointer;
+	transition-duration: 0.2s;
 }
 img.separation:hover {
 	filter: brightness(0.5);
@@ -66,14 +66,11 @@ img.separation:hover {
 .presentation {
 	position: absolute;
 	text-align: center;
-	top: 50vw; left: 0; right: 0;
-	margin-left: 100vh;
+	top: 50vw; left: 100%; right: 0;
 	height: 100vw;
-	padding: 2vw;
-	opacity: 0;
+	padding: 1vw;
 	background-color: #ebf5ff;
 	border-top: 5px solid #1D3A59;
-	transition-duration: 1s;
 }
 h1.titlePresentation {
 	font-size: 3vw;
@@ -94,14 +91,31 @@ h1.titlePresentation {
 p.textePresentation {
 	position: relative;
 	color: #617487;
-	font-size: 1.3vw;
+	font-size: 1.2vw;
 	border-bottom: 2px solid grey;
+}
+
+/*-- images complementaires --*/
+.imagesPresentation {
+	position: relative;
+	height: 20vw;
+}
+.divImages {
+	display: inline-block;
+	margin: 2vw;
+	width: 25vw;
+}
+.divImages img {
+	height: 10vw;
+}
+.textImages {
+	font-size: 1.8vw;
 }
 
 /*-- image separation --*/
 img.separation2 {
 	display: block;
-	margin: 0 auto;
+	margin: 5vw auto;
 	width: 50%;
 	opacity: 1;
 	filter: brightness(1);
@@ -117,15 +131,11 @@ img.separation2:hover {
 /*------------- PRESENTATION PRODUITS--------------*/
 .presProduits {
 	position: absolute;
-	top: 100vw; left: 0; right: 0;
-	margin-right: 100vh;
+	top: 100vw; left: 0; right: 100%;
 	height: 50vw;
 	padding: 2vw;
-	opacity: 0;
 	background-color: grey;
-	transition-duration: 1s;	
 }
-
 
 
 /*------------- KEYFRAMES animation --------------*/

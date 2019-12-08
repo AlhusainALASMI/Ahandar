@@ -28,25 +28,30 @@ $(document).ready(function() {
 });
 
 
+
+
 $(window).scroll(function() {
 
 	//------------------- Fade-out scroll -------------------
 	$("img.logo").css("opacity", 1 - $(window).scrollTop() / 400); //Logo_home
 		
 
-	//-------------------- Fade in-scroll --------------------
-	//Presentation
-	if ($(window).scrollTop() >= 300) {//
-		$(".presentation").css({"opacity": "1"});
-		$(".presentation").css({"margin-left": "0"});
-		console.log("BIM");
-	}
-
-	//Products Prensentation
-	if ($(window).scrollTop() >= 1200) {
-		$(".presProduits").css({"opacity": "1"});
-		$(".presProduits").css({"margin-right": "0"});
-		console.log("BIM");
-	}
-
+	slideInElements();
 });
+
+
+//-------------------- Slide in based on scroll --------------------
+function slideInElements () {
+	//Presentation
+	if ($(window).scrollTop() >= 300) {
+		$(".presentation").animate({
+			left: 0}, 1000);
+	}
+
+		//Products Prensentation
+	if ($(window).scrollTop() >= 1200) {
+		$(".presProduits").animate({
+			right: 0}, 1000);
+		console.log("BIM");
+	}
+}
