@@ -10,6 +10,9 @@ body {
 html {
 	height: 100%;
 }
+p {
+	font-size: 1vw;
+}
 
 /*----------- ARRIERE PLAN / VOILE ------------------*/
 .voile {
@@ -66,7 +69,7 @@ img.separation:hover {
 .presentation {
 	position: absolute;
 	text-align: center;
-	top: 50vw; left: 100%; right: 0;
+	top: 50vw; left: 0; right: 0;
 	height: 100vw;
 	padding: 1vw;
 	background-color: #ebf5ff;
@@ -98,7 +101,7 @@ p.textePresentation {
 /*-- images complementaires --*/
 .imagesPresentation {
 	position: relative;
-	height: 20vw;
+	height: 23vw;
 }
 .divImages {
 	display: inline-block;
@@ -110,12 +113,13 @@ p.textePresentation {
 }
 .textImages {
 	font-size: 1.8vw;
+	color: #78a63f;
 }
 
 /*-- image separation --*/
 img.separation2 {
 	display: block;
-	margin: 5vw auto;
+	margin: 0 auto;
 	width: 50%;
 	opacity: 1;
 	filter: brightness(1);
@@ -131,10 +135,10 @@ img.separation2:hover {
 /*------------- PRESENTATION PRODUITS--------------*/
 .presProduits {
 	position: absolute;
-	top: 100vw; left: 0; right: 100%;
+	top: 98vw; left: 0; right: 0;
 	height: 50vw;
 	padding: 2vw;
-	background-color: grey;
+	background-color: #ededed;
 }
 
 

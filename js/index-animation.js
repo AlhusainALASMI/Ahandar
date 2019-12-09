@@ -34,24 +34,4 @@ $(window).scroll(function() {
 
 	//------------------- Fade-out scroll -------------------
 	$("img.logo").css("opacity", 1 - $(window).scrollTop() / 400); //Logo_home
-		
-
-	slideInElements();
 });
-
-
-//-------------------- Slide in based on scroll --------------------
-function slideInElements () {
-	//Presentation
-	if ($(window).scrollTop() >= 300) {
-		$(".presentation").animate({
-			left: 0}, 1000);
-	}
-
-		//Products Prensentation
-	if ($(window).scrollTop() >= 1200) {
-		$(".presProduits").animate({
-			right: 0}, 1000);
-		console.log("BIM");
-	}
-}

@@ -1,8 +1,8 @@
 .menuPanel.active {
 	z-index: 1;
 	position: absolute;
-	top: 5vh;
-	left: 80%; right: 0%;
+	top: 2.5vw;
+	left: 80vw; right: 0%;
 	height: 100vh;
 	opacity: 1;
 	background-color: #ebf5ff;

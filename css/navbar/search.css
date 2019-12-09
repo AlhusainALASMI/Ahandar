@@ -1,12 +1,22 @@
-.searchPanel {
+.searchPanel.active {
 	position: fixed;
 	top: 3vw;
 	left: 25vw; right: 25vw;
 	height: 3.4vw;
-	opacity: 1;
 	border-radius: 100px;
 	background-color: #ebf5ff;
+	transition-duration: 0.4s;
 }
+.searchPanel {
+	position: fixed;
+	top: -10vw;
+	left: 25vw; right: 25vw;
+	height: 3.4vw;
+	border-radius: 100px;
+	background-color: #ebf5ff;
+	transition-duration: 0.4s;
+}
+
 .search {
 	position: absolute;
 	cursor: text;
