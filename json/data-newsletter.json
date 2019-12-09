@@ -1,0 +1,23 @@
+[
+    {
+        "email": "test@laposte.net",
+        "subscription": "full",
+        "0": "laposte@laposte.net"
+    },
+    {
+        "email": "shamemyhand@free.fr",
+        "subscription": "partial"
+    },
+    {
+        "email": "darknfegi@hotmail.com",
+        "subscription": "minimal"
+    },
+    {
+        "email": "laposte@laposte.net",
+        "subscription": "full"
+    },
+    {
+        "email": "encore@free.fr",
+        "subscription": "full"
+    }
+]

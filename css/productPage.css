@@ -7,15 +7,12 @@ body {
 	font-family: GeorgeCafe;
 }
 
-html {
-	height: 100%;
-}
 a {
 	text-decoration: none;
 	color: inherit;
 }
 
-/*---------- ARRIERE PLAN / ERREUR ----------------*/
+/*---------- ARRIERE PLAN / ERREUR / IMPORT ----------------*/
 .background {
 	background-attachment: local, scroll;
 	background-repeat: no-repeat;
@@ -47,16 +44,14 @@ img.errorImg {
 	text-align: center;
 	font-size: 3vh;
 }
-
 /*--- Bouton retour  ---*/
 .returnToSearch {
 	position: absolute;
-	top: 7vh;
-	height: 5vh;
-	left: 2vh;
-	width: 30vh;
+	top: 3vw;
+	height: 3vw;
+	left: 1vw;
+	width: 15vw;
 	color: #435863;
-	text-align: center;
 	transition-duration: 0.2s;
 	cursor: pointer;
 }
@@ -65,25 +60,24 @@ img.errorImg {
 }
 img.arrowImg {
 	position: absolute;
-	top: 1.2vh;
-	left: 0vh;
+	top: .8vw;
 	height: 1.5vw;
 }
 .returnTxt {
 	position: relative;
-	margin: 1.2vh;
-	left: 1vh;
-	font-size: 2.2vh;
+	margin: .8vw;
+	left: 1.5vw;
+	font-size: 1vw;
 }
 
 /*-------------- PRODUIT -----------------*/
 .productInfo {
-	position: absolute;
-	top: 15vh;
-	left: 5%; right: 5%;
-	bottom: 20vh;
+	position: relative;
+	top: 5vw;
+	height: 35vw;
+	max-width: 100%;
+	margin: 3vw;
 	background-color: #d4fcff;
-	font-size: 2vh;
 	background: linear-gradient(0.5turn, #d9ecff, #ebf5ff, #d9ecff);
 	box-shadow: 1px 1px 10px 3px #b6c7db;
 }
@@ -92,14 +86,14 @@ img.arrowImg {
 img.image {
 	position: absolute;
 	display: block;
-	margin: 1vh 2%;
-	width: 35%;
+	margin: 2vw 2vw;
+	width: 31vw;
 }
 
 /*-------------- TEXTE ------------------*/
 #title {
 	position: absolute;
-	font-size: 6vh;
+	font-size: 3vw;
 	color: #57626e;
 	margin: 2vh 0%;
 	width: 100%;
@@ -107,7 +101,7 @@ img.image {
 }
 .price {
 	position: absolute;
-	font-size: 5vh;
+	font-size: 2.5vw;
 	top: 0vh;
 	right: 4vh;
 	text-align: center;
@@ -115,9 +109,9 @@ img.image {
 }
 .description {
 	position: absolute;
-	font-size: 3vh;
+	font-size: 1.2vw;
 	color: #3b5b5c;
-	margin: 20vh 40%;
+	margin: 10vw 40%;
 	width: 55%;
 	max-height: 60%;
 	text-align: left;
@@ -126,11 +120,11 @@ img.image {
 }
 .addToCart {
 	position: absolute;
-	font-size: 2vh;
-	top: 11vh;
+	top: 6vw;
 	right: 0vh;
-	height: 7vh;
-	width: 22vh;
+	height: 3vw;
+	width: 13vw;
+	font-size: 1vw;
 	text-align: center;
 	background-color: #cfe3fa;
 	transition-duration: 0.3s
@@ -142,84 +136,84 @@ img.image {
 
 /*-------------- FEEDBACK ------------------*/
 .feedback {
-	position: absolute;
-	font-size: 3vh;
+	position: relative;
+	font-size: 1.5vw;
 	color: #325557;
-	top: 90vh;
-	left: 5vh; right: 5vh;
-	height: 43%;
+	top: 10vw;
+	max-width: 100%;
+	margin: 2vw;
 	text-align: left;
 }
 .feedbackBox {
 	position: relative;
 	border-radius: 10px;
-	margin-bottom: 3vh;
+	margin-bottom: 3vw;
 	background-color: #edf5ff;
 }
 .userFeedback {
 	position: relative;
-	padding: 1vh;
-	padding-left: 2vh;
+	padding: .5vw;
+	padding-left: 1vw;
 }
 .user {
-	font-size: 3vh;
+	font-size: 1.2vw;
 	color: #32446e;
 }
 .comment {
-	font-size: 2.5vh;
+	font-size: 1.1vw;
 	color: #20393b;
 }
 .note {
 	color: #30696e;
-	font-size: 2vh;
+	font-size: .9vw;
 }
 
 /*-- send feedback --*/
 .sendFeedback {
 	position: relative;
 	display: block;
-	top: 1vh;
-	margin-top: 20vh;
-	margin-bottom: 30vh;
+	margin-top: 10vw;
+	margin-bottom: 15vw;
 }
 .usernameFeedback {
 	border-radius: 10px;
-	padding: 1vh; 
-	width: 60%;
-	height: 3vh;
+	padding: .5vw; 
+	width: 60vw;
+	height: 1.3vw;
 	font-family: GeorgeCafe;
-	font-size: 2vh;
+	font-size: 1vw;
 	resize: none;
 }
 .textFeedback {
 	border-radius: 10px;
-	padding: 1vh; 
-	width: 60%;
-	height: 30vh;
+	padding: .5vw; 
+	width: 60vw;
+	height: 15vw;
 	font-family: GeorgeCafe;
-	font-size: 2vh;
+	font-size: 1vw;
 	resize: none;
 }
 .buttonFeedback {
 	position: absolute;
-	top: 47vh;
-	left: 93vh;
-	width: 20vh;
-	height: 5vh;
+	top: 23vw;
+	left: 53vw;
+	width: 8vw;
+	height: 2.5vw;
+	font-size: .7vw;
 }
 
 /*-- stars rating --*/
 .starRatingTxt {
-	font-size: 2vh;
+	font-size: 1.5vw;
 }
 .starBox {
 	position: relative;
 	cursor: default;
-	width: 20%;
+	width: 20vw;
 }
 .starImg {
-	width: 3vh;
-	height: 3vh;
+	width: 1.5vw;
+	height: 1.5vw;
 	position: relative;
 	transition-duration: 0.2s;
 }
@@ -229,30 +223,31 @@ img.image {
 }
 .feedbackNote {
 	position: relative;
-	top: -1vh;
-	background: transparent;
+	top: -0.4vw;
 	border: hidden;
-	width: 2vh;
+	background: transparent;
+	width: 1.5vw;
+	font-size: .8vw;
 }
 
 /*-------------- CHECKOUT ------------------*/
 .checkout {
 	z-index: 1;
 	position: fixed;
-	top: 10vh;
+	top: 4vw;
 	left: 100%;
-	bottom: 20vh;
-	width: 20%;
+	height: 40vw;
+	width: 20vw;
 	background-color: #ebf5ff;
-	font-size: 2vh;
+	font-size: .8vw;
 	transition-duration: 0.3s;
 }
 img.cartImg {
 	position: fixed;
-	top: 10vh;
+	top: 4vw;
 	right: 0%;
-	width: 9vh;
-	height: 8vh;
+	width: 5vw;
+	height: 4.5vw;
 	opacity: 1;
 	background-color: #ebf5ff;
 	box-shadow: -3px 0px 3px 1px #b6c7db;
@@ -260,14 +255,23 @@ img.cartImg {
 }
 .cartTxt {
 	position: relative;
-	margin: 1vh auto;
-	font-size: 4vh;
+	margin: 1vw auto;
+	font-size: 2vw;
 	text-align: center;
 }
 .itemsTxt {
 	position: relative;
-	margin: 1vh auto;
-	font-size: 3vh;
+	margin: 1vw auto;
+	font-size: 1.2vw;
 	list-style-type: none;
 	background-color: white;
+}
+.submitCart {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 5vw;
+	font-size: 1.5vw;
+	border: none;
+	background-color: #7cc0cc;
 }

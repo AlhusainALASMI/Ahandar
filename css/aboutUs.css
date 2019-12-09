@@ -11,14 +11,16 @@ html {
 	height: 100%;
 }
 
-/*------------- ARRIERE PLAN / VOILE----------------*/
+/*------------- ARRIERE PLAN / VOILE / IMPORT ----------------*/
 .background {
 	background-position: fixed;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-
+.footer {
+	top: 150vw
+}
 /*------------- PRESENTATION ----------------*/
 .aboutUs {
 	position: absolute;

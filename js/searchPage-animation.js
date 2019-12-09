@@ -68,10 +68,9 @@ function populatePage() {
 	var resultTotal = 0; //How many products were found (incremented when a product is found)
 
 	for (var p = 0; p <= productNames.length-1; p++) {
-		if (productNames[p].startsWith(productParam)) {
+		if (productNames[p].toLowerCase().startsWith(productParam)) {
 
 			resultTotal = resultTotal + 1;
-			console.log(productNames[p]);
 
 			//set variables p = product
 			const pName = productNames[p];

@@ -10,37 +10,45 @@
 	<link rel="stylesheet" type="text/css" href="css/searchPage.css"/>
 
 	<script src="js/jquery-3.4.1.min.js"></script>
-	<script src="js/import-navbar.js"></script>
+	<script src="js/import/import-footer.js"></script>
+	<script src="js/import/import-navbar.js"></script>
 	<script src="js/import-data-suggestions.js"></script>
 	<script src="js/searchPage-animation.js"></script>
 
 </head>
 <body class="background">
-	<div class="pagewrapper">
+<div class="pagewrapper">
 
-		<div class="navbarImport"></div>
+	<!-- navbar -->
+	<div class="navbarImport"></div>
 
-		<div class="categories"></div>
+	<div class="categories"></div>
 
-		<div class="resultContainer">
-			<!------------ Number of results in page ----------->
-			<div class="result" id="result">
-				<h2 id="query"></h2>
-				<!-- GET QUERY from URL --->
-				<script type="text/javascript"> 
-					const urlParams = new URLSearchParams(window.location.search);
-					const myParam = urlParams.get("q");
-					document.getElementById("query").innerHTML += myParam
-				</script>
-			</i></div>
+	<div class="resultContainer">
+		<!------------ Number of results in page ----------->
+		<div class="result" id="result">
+			<h2 id="query"></h2>
+			<!-- GET QUERY from URL --->
+			<script type="text/javascript"> 
+				const urlParams = new URLSearchParams(window.location.search);
+				const myParam = urlParams.get("q");
+				document.getElementById("query").innerHTML += myParam
+			</script>
+		</i></div>
 
-			<!------ ITEM LIST ------>
-			<div class="itemContainer"> <!-- Populated by jQuery -->
-			</div>
+		<!------ ITEM LIST ------>
+		<div class="itemContainer"> <!-- Populated by jQuery -->
 		</div>
-
-		<div class="checkout"></div>
-
 	</div>
+
+	<div class="checkout"></div>
+
+	
+
+</div>
+
+<!-- footer -->
+<footer class="footerImport"></footer>
+
 </body>
 </html>

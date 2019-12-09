@@ -85,7 +85,7 @@ function checkMatch() {
 			$(".suggest").empty(); //Clear after each keystroke(clean)
 
 			for (const k in dataNames) { //For all elements in array (names)
-				if (dataNames[k].startsWith(search)) { //If query matches names beginning
+				if (dataNames[k].toLowerCase().startsWith(search)) { //If query matches names beginning
 					$(".suggest").append("<li class='liSuggest'><a class='aSuggest' href='productPage.html?q=" + dataNames[k] + "'>" + dataNames[k] + "</a></li>");
 				}	//Append <li> & <a> with "suggest" classes > Avoid navbar conflict on css
 			}
