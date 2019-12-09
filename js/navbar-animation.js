@@ -4,21 +4,22 @@ $(document).ready(function() {
 	$(".navbar").animate({"opacity": 1}, 1000);
 
 //------------------- SEARCH ----------------------------
-	$(".searchPanel").hide(); //Cache la recherche pour l'activer plus tard
+	//$(".searchPanel").hide(); //Cache la recherche pour l'activer plus tard
 
 	//Ouvrir searchPanel
 	$("img.loupeImg").click(function() {
 		$(".suggest").empty(); //Efface les suggestions
 		$(".search").val(""); //Efface le texte de recherche
-		$(".searchPanel").slideToggle(400);
-		//$(".searchPanel").css({"top": "3vw"});
+		$(".searchPanel").addClass("active", 1000);
 		$(".search").focus();
 	});
 
 	//Fermer searchPanel (perte de focus)
 	$(".search").blur(function() {
-		$(".searchPanel").slideToggle(400);
-		//$(".searchPanel").css({"top": "-10vw"});
+		setTimeout(function() {
+			$(".searchPanel").removeClass("active", 1000);
+			$(".suggest").empty();
+		}, 200);
 	});
 
 

@@ -1,10 +1,5 @@
 $(document).ready(function() {
 
-	//Voile "Qui sommes-nous ?"
-	$("img.loadVoile").delay(1000).animate({"top": "100%"}, 1000);
-
-
-
 	//HOVER IMAGES > text
 	
 	//coffee / team
@@ -40,6 +35,32 @@ $(document).ready(function() {
 				"transform": "rotate(-16deg)",
 				"opacity": 0
 			});			
+		}
+	});
+
+
+	//glasses / projects
+	$("img.glassesImg").on({
+		mouseenter: function() {
+			$(".projectsTxt").css({"left": "22%"});
+			$(".projectsTxtFull").css({"opacity": 0.8});
+		},
+		mouseleave: function() {
+			$(".projectsTxt").css({"left": "21%"});
+			$(".projectsTxtFull").css({"opacity": 0});			
+		}
+	});
+
+
+	//phone / contact
+	$("img.phoneImg").on({
+		mouseenter: function() {
+			$(".phoneTxt").css({"left": "23%"});
+			$(".phoneTxtFull").css({"opacity": 0.8});
+		},
+		mouseleave: function() {
+			$(".phoneTxt").css({"left": "22%"});
+			$(".phoneTxtFull").css({"opacity": 0});			
 		}
 	});
 });
