@@ -12,7 +12,7 @@ a {
 	color: inherit;
 }
 
-/*---------- ARRIERE PLAN / ERREUR / IMPORT ----------------*/
+/*---------- ARRIERE PLAN / ERREUR ----------------*/
 .background {
 	background-attachment: local, scroll;
 	background-repeat: no-repeat;
@@ -44,6 +44,7 @@ img.errorImg {
 	text-align: center;
 	font-size: 3vh;
 }
+
 /*--- Bouton retour  ---*/
 .returnToSearch {
 	position: absolute;
