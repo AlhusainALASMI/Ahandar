@@ -6,10 +6,6 @@
 body {
 	font-family: GeorgeCafe;
 }
-
-html {
-	height: 100%;
-}
 p {
 	font-size: 1vw;
 }
@@ -32,7 +28,6 @@ p {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-
 
 
 /*--------- IMAGES ACCUEIL ----------------*/
@@ -69,8 +64,8 @@ img.separation:hover {
 .presentation {
 	position: absolute;
 	text-align: center;
-	top: 50vw; left: 0; right: 0;
-	height: 100vw;
+	margin-top: 5vw; left: 0; right: 0;
+	height: 120vw;
 	padding: 1vw;
 	background-color: #ebf5ff;
 	border-top: 5px solid #1D3A59;
@@ -132,21 +127,16 @@ img.separation2:hover {
 
 
 
-/*------------- PRESENTATION PRODUITS--------------*/
+/*------------- NOS PRODUITS --------------*/
 .presProduits {
-	position: absolute;
-	top: 98vw; left: 0; right: 0;
+	position: relative;
+	margin-top: 55vw;
+	max-width: 100%;
 	height: 50vw;
-	padding: 2vw;
-	background-color: #ededed;
+	text-align: center;
+	margin-bottom: 15vw;
 }
-
-
-/*------------- KEYFRAMES animation --------------*/
-
-
-@keyframes pulseColor {
-	0% {}
-	50% {color: #5b80a8;}
-	100% {}
+img.meetingImg {
+	position: relative;
+	width: 100%;
 }

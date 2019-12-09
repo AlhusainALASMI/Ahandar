@@ -1,0 +1,75 @@
+/*--------- GENERAL -------------*/
+@font-face {
+	font-family: GeorgeCafe;
+	src: url(../fonts/LouisGeorgeCafe.ttf);
+}
+body {
+	font-family: GeorgeCafe;
+}
+/*----------- ARRIERE PLAN ------------------*/
+
+.background {
+	background-position: local;
+	background-attachment: local;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*---------------- Contactez-nous --------------------*/
+.contactBox {
+	position: relative;
+	height: 30vw;
+	margin-top: 10vw;
+	margin-bottom: 20vw;
+}
+
+.contactUsTxt {
+	font-size: 3vw;
+	color: #466578;
+	text-align: center;
+}
+
+.contactForm {
+	top: 4vw;
+	left: 5vw;
+	height: 20vw;
+}
+
+.contactEmail {
+	position: absolute;
+	top: 5vw; left: 39vw;
+	height: 2vw;
+	width: 20vw;
+	font-size: 1vw;
+	padding-left: .7vw;
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid grey;
+}
+
+.contactMessage {
+	position: absolute;
+	font-family: GeorgeCafe;
+	top: 10vw; left: 29vw;
+	width: 40vw;
+	height: 15vw;
+	font-size: 1vw;
+	border: 1px solid grey;
+	background: transparent;
+}
+.contactSumbit {
+	position: absolute;
+	top: 27vw;
+	left: 47vw;
+	width: 5vw;
+	height: 3vw;
+	border: none;
+	border-radius: 0px;
+	background-color: #bececf;
+	transition-duration: 0.2s;
+}
+.contactSumbit:hover {
+	border-radius: 30px;
+	background-color: #81d7db;
+	transform: scale(1.2);
+}

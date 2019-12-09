@@ -7,9 +7,7 @@ body {
 	font-family: GeorgeCafe;
 }
 
-html {
-	height: 100%;
-}
+
 
 /*------------ ARRIERE PLAN -----------------*/
 .background {
@@ -19,44 +17,47 @@ html {
 	background-size: cover;
 }
 
+
 /*------------ CATEGORIES -----------------*/
 .categories {
 	position: absolute;
-	top: 6vh;
-	left: 0vh; right: 85%;
-	height: 100%;
+	top: 3vw;
+	width: 15vw;
+	height: 30vw;
 	border-radius: 20px;
 	background-color: #e9f0f7;
 	box-shadow: 1px 1px 10px 3px #cad4de;
 }
 
+
 /*------------ RESULTATS -----------------*/
 .resultContainer {
-	position: absolute;
-	top: 6vh;
-	left: 16%; right: 16%;
-	height: 16%;
+	position: relative;
+	top: 2.6vw;
+	left: 16vw;
+	width: 70vw;
+	height: 100%;
 	border-radius: 20px;
 	background-color: #e9f0f7;
 	box-shadow: 1px 1px 10px 3px #cad4de;
 }
 .result {
 	position: relative;
-	top: 2vh;
-	left: 3%;
-	width: 100%;
-	font-size: 2.5vh;
+	top: 1.5vw;
+	left: 1.5vw;
+	width: 70vw;
+	font-size: 1.3vw;
 	color: #44535c;
-
 	background-color: transparent;
 }
 .itemContainer {
 	position: relative;
-	width: 100%;
+	width: 70vw;
 	text-align: center;
-	top: 5vh;
-	padding-top: 5vh;
-	padding-bottom: 10vh;
+	top: 3vw;
+	padding-top: 2vw;
+	padding-bottom: 5vw;
+	margin-bottom: 10vw;
 	border-radius: 20px;
 	overflow: scroll;
 	overflow-y: hidden;
@@ -67,9 +68,9 @@ html {
 .item {
 	position: relative;
 	display: inline-block;
-	margin-top: 3vh; margin-left: 3vh;
-	width: 35vh;
-	height: 35vh;
+	margin-top: 2vw; margin-left: 2.5vw;
+	width: 17vw;
+	height: 17vw;
 	border-radius: 30px;
 	background-color: #d0e3f2;
 	cursor: pointer;
@@ -77,17 +78,16 @@ html {
 }
 img.itemImg {
 	position: relative;
-	top: 1vh;
+	top: .8vw;
 	height: 90%;
 	width: 90%;
 	filter: none;
 }
 .itemInfo {
 	position: absolute;
-	top: -3%;
+	top: -1vw;
 	opacity: 0;
 	border-radius: 20px;
-	left: 0%; right: 0%; bottom: 0vh;
 	color: #354654;
 	pointer-events: none;
 }
@@ -96,39 +96,37 @@ img.itemImg {
 }
 .itemName {
 	position: relative;
-	top: 1vh;
-	font-size: 4vh;
+	top: .5vw;
+	font-size: 2vw;
 	color: #26394a;
 }
 .itemDescription {
 	position: relative;
-	top: -2vh;
-	height: 22vh;
-	width: 100vh;
+	top: -1vw;
+	height: 10vw;
 	display: table-cell;
-    vertical-align: middle;
-	font-size: 2vh;
+	vertical-align: middle;
+	font-size: 1vw;
 	overflow: hidden;
 }
 .itemPrice {
 	position: relative;
-	display: inline-block;
-	top: -3vh;
-	left: -7vh;
-	font-size: 2vh;
+	width: 8vw;
+	bottom: 1vw;
+	left: 2vw;
+	text-align: left;
+	font-size: 1vw;
 }
 .itemRating {
 	position: relative;
-	display: inline-block;
-	top: -3.2vh;
-	left: 7vh;
-	font-size: 1.5vh;
+	bottom: 3vw;
+	right: -4.8vw;
+	font-size: .8vw;
 }
 img.ratingImg {
 	position: relative;
-	display: inline-block;
-	top: -2.5vh;
-	left: 7.5vh;
-	height: 2.5vh;
-	width: 2.5vh:
+	bottom: 5vw;
+	right: -6.5vw;
+	height: 1.3vw;
+	width: 1.3vw:
 }

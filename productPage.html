@@ -10,78 +10,81 @@
 	<link rel="stylesheet" type="text/css" href="css/productPage.css"/>
 
 	<script src="js/jquery-3.4.1.min.js"></script>
-	<script src="js/import-navbar.js"></script>
+	<script src="js/import/import-footer.js"></script>
+	<script src="js/import/import-navbar.js"></script>
 	<script src="js/import-data-suggestions.js"></script>
 	<script src="js/productPage-animation.js"></script>
 
 
 </head>
 <body class="background">
-	<div class="pagewrapper">
+<div class="pagewrapper">
+	<!-- navbar -->
+	<div class="navbarImport"></div>
 
-		<div class="navbarImport"></div> 
+	<!-- Bouton retour -->
+	<div class="returnToSearch"><a href="searchPage.html?q="><img class="arrowImg" src="images/arrow.png"><p class="returnTxt">Retourner aux produits</p></a></div>
 
-		<div class="productBackground"></div>
+	<!-- INFOS -->
+	<div class="productInfo">
+		
+		<h1 name="title" id="title"></h1>
+		
+		<img class="image">
 
-		<!-- Bouton retour -->
-		<div class="returnToSearch"><a href="searchPage.html?q="><img class="arrowImg" src="images/arrow.png"><p class="returnTxt">Retourner aux produits</p></a></div>
+		<h2 class="price"></h2>
+		
+		<p class="description"></p>
 
-		<!-- INFOS -->
-		<div class="productInfo">
-			
-			<h1 name="title" id="title"></h1>
-			
-			<img class="image">
-
-			<h2 class="price"></h2>
-			
-			<p class="description"></p>
-
-			<div class="addToCart"><p>Ajouter au panier</p></div>
-			
-			<div class="checkout">
-				<img class="cartImg" src="images/cart.png">
-				<p class="cartTxt">Mon panier</p>	
-				<p class="itemsTxt"></p>
-			</div>
-
-		</div>
-
-
-		<!-- FEEDBACK -->
-		<div class="feedback">
-			<div class="productFeedback"> <!-- feedback users -->
-			<h2>Commentaires Clients</h2>
-			</div>
-
-			<form action="php/submitFeedback.php" class="sendFeedback"> <!-- send feedback -->
-				<p>Ecrire un commentaire: </p>
-
-				<textarea type="text" class="usernameFeedback" name="username" placeholder="Votre nom/surnom"></textarea>
-				<textarea type="text" class="textFeedback" name="comment" placeholder="Laissez un avis"></textarea>
-				
-				<input type="hidden" class="pNameToPHP" name="pNameToPHP">
-				<button class="buttonFeedback">Envoyer</button>
-
-				<div class="starBox">
-					<p class="starRatingTxt"><i>Laissez une note</i></p>
-					<img class="starImg" id="1" src="images/star.png">
-					<img class="starImg" id="2"src="images/star.png">
-					<img class="starImg" id="3"src="images/star.png">
-					<img class="starImg" id="4"src="images/star.png">
-					<img class="starImg" id="5"src="images/star.png">
-					<input type="text" readonly="readonly" class="feedbackNote" name="feedbackNote">
-				</div>
-			</form>
-		</div>
-
-
-		<!-- ERROR SCREEN -->
-		<div class="invalidParamVoile">
-			<img class="errorImg" src="images/error.png">
-			<p class="errorTxt">Désolé. Ce produit n'existe pas !</p>
+		<div class="addToCart"><p>Ajouter au panier</p></div>
+		
+		<div class="checkout">
+			<img class="cartImg" src="images/cart.png">
+			<p class="cartTxt">Mon panier</p>	
+			<p class="itemsTxt"></p>
+			<input class="submitCart" type="submit" name="submitCart" value="Payer">
 		</div>
 
 	</div>
+
+
+	<!-- FEEDBACK -->
+	<div class="feedback">
+		<div class="productFeedback"> <!-- feedback users -->
+		<h2>Commentaires Clients</h2>
+		</div>
+
+		<form action="php/submitFeedback.php" class="sendFeedback"> <!-- send feedback -->
+			<p>Ecrire un commentaire: </p>
+
+			<textarea type="text" class="usernameFeedback" name="username" placeholder="Votre nom/surnom"></textarea>
+			<textarea type="text" class="textFeedback" name="comment" placeholder="Laissez un avis"></textarea>
+			
+			<input type="hidden" class="pNameToPHP" name="pNameToPHP">
+			<button class="buttonFeedback">Envoyer</button>
+
+			<div class="starBox">
+				<p class="starRatingTxt"><i>Laissez une note</i></p>
+				<img class="starImg" id="1" src="images/star.png">
+				<img class="starImg" id="2"src="images/star.png">
+				<img class="starImg" id="3"src="images/star.png">
+				<img class="starImg" id="4"src="images/star.png">
+				<img class="starImg" id="5"src="images/star.png">
+				<input type="text" readonly="readonly" class="feedbackNote" name="feedbackNote">
+			</div>
+		</form>
+	</div>
+
+
+	<!-- ERROR SCREEN -->
+	<div class="invalidParamVoile">
+		<img class="errorImg" src="images/error.png">
+		<p class="errorTxt">Désolé. Ce produit n'existe pas !</p>
+	</div>
+</div>
+
+<!-- footer -->
+<footer class="footerImport"></footer>
+
 </body>
 </html>

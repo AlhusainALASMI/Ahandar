@@ -11,14 +11,16 @@ html {
 	height: 100%;
 }
 
-/*------------- ARRIERE PLAN / VOILE----------------*/
+/*------------- ARRIERE PLAN / VOILE / IMPORT ----------------*/
 .background {
 	background-position: fixed;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-
+.footer {
+	top: 150vw
+}
 /*------------- PRESENTATION ----------------*/
 .aboutUs {
 	position: absolute;
@@ -168,7 +170,7 @@ img.phoneImg:hover {
 	position: absolute;
 	top: 112.5vw;
 	left : 19%;
-	height: 14vw; width: 22vw;
+	height: 18vw; width: 22vw;
 	opacity: 0;
 	font-size: 1vw;
 	padding: 1vw;

@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8"/>
-	<title>Products PHP</title>
+	<title>Ahandar Feedback</title>
+	<meta charset="UTF-8"/>
 </head>
 <body>
 	
 	<?php
 
-	if (!empty($_GET["username"]) /*&& !empty($_GET["comment"])*/) { //if username is empty > error
+	if (!empty($_GET["username"]) && !empty($_GET["feedbackNote"])) { //if username is empty > error
 		$productParam = $_GET["pNameToPHP"];
 		$username = htmlspecialchars($_GET["username"]);
 		$comment = htmlspecialchars($_GET["comment"]);
@@ -19,7 +19,7 @@
 		$json = file_get_contents($url);
 		$data = json_decode($json, true);
 
-		//push feedback
+		//push feedback to database
 		array_push($data[$productParam][0]["evaluation"], array(
 			"user"=>$username,
 			"comment"=>$comment,
@@ -34,7 +34,7 @@
 		echo "<form action='../index.html'><button> >Revenir à l'accueil< </button></form>";
 	}
 	else {
-		echo "<h2>Erreur ! Vous devez spécifier un nom !</h2>";
+		echo "<h2>Erreur. Vous devez spécifier un nom et une note</h2>";
 	}
 
 	?>
