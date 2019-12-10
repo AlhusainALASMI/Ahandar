@@ -43,6 +43,7 @@
 - [ ] Garder les informations du panier entre les pages
 - [ ] Ajouter plusieurs produit au panier
 - [X] Informations annexes du produit (avis, etoiles)
+- [ ] Evaluation du produit = moyenne des evaluations
 - [X] Commentaires d'utilisateurs
 - [X] Ajouter des commentaires
 - [ ] Supprimer son commentaire
