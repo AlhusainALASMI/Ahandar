@@ -64,8 +64,13 @@
             "etoiles": "3",
             "evaluation": [
                 {
-                    "user": "John. F",
-                    "comment": "IL N'ENREGIStRE PAS LES TOUCHE ARNAQUE NUL NUL;; A FUIR",
+                    "user": "vendredi",
+                    "comment": "",
+                    "note": "5\/5"
+                },
+                {
+                    "user": "Ouitah9i9",
+                    "comment": "Encore un truc qui servira qu'une fois tout les 40 ans. Super.",
                     "note": "1\/5"
                 }
             ],
@@ -109,7 +114,7 @@
         {
             "image": "images\/products\/protecMail.png",
             "price": "24.99€",
-            "resume": "Password Manager s\u00e9curis\u00e9 qui vous permet de stocker vos mots de passes sans se soucier de les oublier",
+            "resume": "Anti-spam-hameçonnage efficace qui filtre les messages avant même que vous ne puissiez les voir.",
             "description": "<strong>ProtecMail<\/strong> est un logiciel qui s'associe à votre mail, vous évitant d'être la cible d'arnaques suites à des fuites de données.<br\/>Ce logiciel détecte les e-mails malicieux et vous le laisse savoir, après avoir supprimé la menace du contenu du mail.<br\/><br\/><i>Seulement une seule adresse e-mail peut être synchronisée avec <strong>ProtecMail</strong>. Pour plus d'informations sur le partage d'adresse e-mail familiale, contactez le support.<\/i>",
             "etoiles": "4.2",
             "evaluation": [
@@ -136,8 +141,8 @@
         {
             "image": "images\/products\/avinco.png",
             "price": "29.99\u20ac",
-            "resume": "Password Manager s\u00e9curis\u00e9 qui vous permet de stocker vos mots de passes sans se soucier de les oublier",
-            "description": "antivirus polyvalent cheap",
+            "resume": "Antivirus polyvalent et discret, détecte les menaces et les élimine sans être intrusif.",
+            "description": "<strong>Avinco</strong> est un antivirus puissant régulièrement mis à jour pour lutter contre les menaces les plus récentes. Grâce à Avinco vous n'aurez plus besoin de monitorer vos consultations de sites, vos téléchargements, ou quoi que ce soit d'autre. Cet antivirus s'en chargera pour vous !<br/><br/>Avec la licence Avinco, vous pouvez activer l'analyse en temps réel et sauvegarder les données récoltées dans votre Cloud <strong>Cumulus</strong>.<br/><br/><i>Attention ! Cumulus est vendu séparément.<br/>Pour pouvoir bénéfier d'un algorithme plus rapide, des serveurs d'analyses dédiés et une assistance personnelle, rendez-vous sur la page d'AvincoPremium.</i>",
             "etoiles": "4.1",
             "evaluation": [
                 {
@@ -159,44 +164,12 @@
             "category": "globale\/antivirus"
         }
     ],
-    "Anubis": [
-        {
-            "image": "images\/products\/anubis.png",
-            "price": "79.99\u20ac",
-            "resume": "Password Manager s\u00e9curis\u00e9 qui vous permet de stocker vos mots de passes sans se soucier de les oublier",
-            "description": "antivirus complet",
-            "etoiles": "4.8",
-            "evaluation": [
-                {
-                    "user": "kurt_cobain_78",
-                    "comment": " 0 stars smells like shit",
-                    "note": "1\/5"
-                },
-                {
-                    "user": "user194751",
-                    "comment": "Bien. Anubis ne change pas.",
-                    "note": "5\/5"
-                },
-                {
-                    "user": "Oui",
-                    "comment": "J'ai pas mal aim\u00e9",
-                    "note": "5\/5"
-                },
-                {
-                    "user": "Jahooda",
-                    "comment": "Cool, pas cher, mieux que sur Wish",
-                    "note": "5\/5"
-                }
-            ],
-            "category": "globale\/antivirus"
-        }
-    ],
     "AvincoPremium": [
         {
             "image": "images\/products\/avincoPremium.png",
-            "price": "99.99\u20ac",
-            "resume": "Password Manager s\u00e9curis\u00e9 qui vous permet de stocker vos mots de passes sans se soucier de les oublier",
-            "description": "antivirus premium complet",
+            "price": "149.99\u20ac",
+            "resume": "Avinco, mais en mieux",
+            "description": "<strong>AvincoPremium</strong> dispose de nombreux avantages par rapport à Avinco. Grâce au premium, vous aurez accès à des analyses plus rapides, des diagnostics plus fiables, et surtout une assistance personnelle sur vos analyses et leurs résultats.<br/>Un professionnel se chargera de vérifier et corriger les problèmes sur votre ordinateur, sans frais.<br/><br/>Pour consulter les modalités légales d'AvincoPremium, contactez-nous via la page de contact.<br/><br/><i>AvincoPremium est le meilleur antivirus de notre gamme de produits grâce à sa technologie de pointe. Cependant nous ne sommes pas responsable des dégâts que vous ou d'autres programmes malveillants puissent causer à votre ordinateur.</i>",
             "etoiles": "3.7",
             "evaluation": [
                 {
@@ -213,22 +186,59 @@
                     "user": "user197519",
                     "comment": "tr\u00e8s bien ok",
                     "note": "5\/5"
+                },
+                {
+                    "user": "kurt_cobain_78",
+                    "comment": " 0 stars smells like shit",
+                    "note": "1\/5"
                 }
             ],
             "category": "globale\/antivirus"
         }
     ],
-    "Haroft": [
+    "Anubis": [
         {
-            "image": "images\/products\/haroft.png",
-            "price": "139.99\u20ac",
-            "resume": "Password Manager s\u00e9curis\u00e9 qui vous permet de stocker vos mots de passes sans se soucier de les oublier",
-            "description": "package simple complet",
+            "image": "images\/products\/anubis.png",
+            "price": "0.50\u20ac",
+            "resume": "Anubis est une apparance personnalisée pour Avinco",
+            "description": "<strong>Anubis</strong> n'est rien qu'une apparance customisée pour Avinco, ayant pour thème l'Egypte.<br/>Grâce à Anubis, vous pouvez déjà sentir le sable brûlant vous ensevelir lentement, et les vautours tourner autour de vous. On s'y croirait vraiment.<br/><br/><i>Nous ne nous tenons pas responsables des dégâts que le sable peut causer / vous causer. Avant d'acheter et de télécharger Anubis, consultez un médecin.</i>",
+            "etoiles": "4.8",
+            "evaluation": [
+                {
+                    "user": "user194751",
+                    "comment": "..--- ----. .-.-.- ----. --... ----. ....- .---- -.... --..-- / ...-- .---- .-.-.- .---- ...-- ....- ..--- ...-- -.... / -.-. .-. . ..- ... . --.. / -.-. --- .. -. -.-. .",
+                    "note": "5\/5"
+                },
+                {
+                    "user": "Oui1234511",
+                    "comment": "Ca fait assez vrai. Pas mal",
+                    "note": "5\/5"
+                },
+                {
+                    "user": "Jahooda",
+                    "comment": "Cool, pas cher, mieux que sur Wish",
+                    "note": "5\/5"
+                },
+                {
+                    "user": "Ahn Gulliver",
+                    "comment": "50 CENTIMES POUR DES SKINS, DEPUIS QUAND LES ANTIVIRUS ONT DES DLCs !!!1",
+                    "note": "1\/5"
+                }
+            ],
+            "category": "globale\/antivirus"
+        }
+    ],
+    "KKärcher": [
+        {
+            "image": "images\/products\/kkarcher.png",
+            "price": "119.99\u20ac",
+            "resume": "Successeur de CCleaner, nettoyeur puissant et efficace pour libérer votre ordinateur de fichires encombrants et indésirables.",
+            "description": "Après CCleaner, il y a <strong>KKärcher</strong>. Cet outil vous permettra de nettoyer en profondeur vos disques et éliminer les fichires encombrants, indésirables, ou malicieux.<br/>Plus besoin de se soucier des traces que laissent les applications, <strong>KKärcher</strong> garde en mémoire chaque fichires que les applications créent, pour pouvoir les supprimer par la suite.<br/><br/><i><strong>Attention !</strong> KKärcher n'est pas un antivirus ! Pour cela, consulter la gamme Avinco ou Anubis.</i>",
             "etoiles": "2.5",
             "evaluation": [
                 {
                     "user": "nimertwo",
-                    "comment": "",
+                    "comment": "le mode pulverisation est genial merci",
                     "note": "2\/5"
                 },
                 {
