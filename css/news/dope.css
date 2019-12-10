@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0
+}
+
+body{
+    background-image: url(home.png);
+    height: 100vh;
+    background-size: cover;
+    background-position:!important;
+}
+
+.nav-bar{
+    background-color: #d6d9f0;
+    height: 80px;
+    margin-right: 500px;
+    border-radius: 0px 0px 7px 0px
+    
+}
+
+.logo{
+    float: left;
+    margin:-10px;
+    height: 10 px;
+    width: 100px;
+}
+
+.menu{
+    float: left;
+    list-style: none;
+    margin:10px;
+}
+
+.menu li{
+    display: inline-block;
+    margin: 20px 5px;
+    border-right: 1px solid rgba(0,0,0,0.2)
+    
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+    padding: 50px 25px;
+    font-family:georgecafe;
+    letter-spacing: 2px;
+    
+    font-size: 20px
+    
+}
+
+.menu .woum{
+    display:grid;
+    list-style: none
+}

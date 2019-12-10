@@ -42,7 +42,7 @@ img.coffeeImg {
 }
 img.coffeeImg:hover {
 	transform: translate(15px);
-	cursor: pointer;
+	cursor: default;
 }
 .teamTxt {
 	position: absolute;
@@ -85,7 +85,6 @@ img.document2Img {
 }
 img.document2Img:hover {
 	transform: rotate(5deg);
-	cursor: default;
 }
 .storyTxt {
 	position: absolute;

@@ -65,7 +65,7 @@ img.separation:hover {
 	position: absolute;
 	text-align: center;
 	margin-top: 5vw; left: 0; right: 0;
-	height: 120vw;
+	height: 100vw;
 	padding: 1vw;
 	background-color: #ebf5ff;
 	border-top: 5px solid #1D3A59;
@@ -134,9 +134,28 @@ img.separation2:hover {
 	max-width: 100%;
 	height: 50vw;
 	text-align: center;
-	margin-bottom: 15vw;
 }
 img.meetingImg {
 	position: relative;
 	width: 100%;
+}
+.discoverProducts {
+	position: absolute;
+	background-color: #c4b19b;
+	top: 8vw; left: 25vw;
+	height: 8.2vw;
+	width: 50vw;
+	transition-duration: 0.4s;
+	box-shadow: 0px 10px 13px -7px #000000, 4px 4px 0px 1px rgba(168,48,17,0);
+}
+.discoverProducts:hover {
+	background-color: #dea15d;
+	transform: scale(1.1);
+	border-radius: 100px;
+	cursor: pointer;
+}
+.discoverTxt {
+	font-size : 2.5vw;
+	color: #ffedd9;
+	pointer-events: none;
 }

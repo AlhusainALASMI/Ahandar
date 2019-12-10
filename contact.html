@@ -14,25 +14,29 @@
 	<script src="js/import/import-footer.js"></script>
 	<script src="js/import-data-suggestions.js"></script>
 </head>
-<body class="background" style="background-image: url(images/contact/bg_contact.jpg)">
+<body class="background" style="background-image: url(images/contact/contact.jpg)">
 <div class="pagewrapper">
 	
 	<!-- navbar -->
 	<div class="navbarImport"></div>
 
-	<div class="contactBox">
-		<div class="contactUs">
-
-			<p class="contactUsTxt">Contactez-nous</p>
-
-			<form class="contactForm" action=""> <!-- Contact Form -->
-				<input class="contactEmail" type="email" name="contactEmail" placeholder="Adresse e-mail...">
-				<textarea class="contactMessage" placeholder="Votre message..."></textarea>
-				<input class="contactSumbit" type="submit" name="contactSubmit" value="Envoyer">
-			</form>
-
-		</div>
-	</div>
+      <div class="contact-title">
+	   <h1>Bonjour</h1>
+	    <h2>Comment pouvons-nous vous aider ?</h2>
+    </div>
+	<div class="contact-form">
+	 <form id="contact-form" method="post" action="contact-form.php">
+	 <input name="Nom" type="text" class="form-control" placeholder="Nom et prénom" required>
+	 <br>
+	 <input name="Email" type="email" class="form-control" placeholder=" Email" required>
+	 <br>
+	 <textarea name="message" class="form-control" placeholder="Ecrir Message" row="4" required>
+	 </textarea>
+	 <br>
+	  <input type="Submit" class="form-control submit" value="Envoyer un message">
+ 
+   </form>
+   </div>
 
 
 </div>
