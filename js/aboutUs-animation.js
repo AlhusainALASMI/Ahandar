@@ -1,7 +1,9 @@
 $(document).ready(function() {
 
+	cvImages();
+
 	//HOVER IMAGES > text
-	
+
 	//coffee / team
 	$("img.coffeeImg").on({
 		mouseenter: function() {
@@ -64,3 +66,32 @@ $(document).ready(function() {
 		}
 	});
 });
+
+
+function cvImages () {
+
+	$(".cvTaha").hide();
+	$(".cvHusain").hide();
+	$(".cvLeo").hide();
+
+	//show cvTaha
+	$(".tabTaha").click(function() {
+		$(".cvTaha").show();
+		$(".cvHusain").hide();
+		$(".cvLeo").hide();
+	});
+
+	//show cvHusain
+	$(".tabHusain").click(function() {
+		$(".cvTaha").hide();
+		$(".cvHusain").show();
+		$(".cvLeo").hide();
+	});
+
+	//show cvLeo
+	$(".tabLeo").click(function() {
+		$(".cvTaha").hide();
+		$(".cvHusain").hide();
+		$(".cvLeo").show();
+	});
+}

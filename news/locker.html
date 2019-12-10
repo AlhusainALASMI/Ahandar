@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="locker.css">
+<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Oswald&display=swap" rel="stylesheet">
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+    
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-left w3-hide-small">
+     <a href="virus.html" class="w3-bar-item w3-button"><i>Retour</i></a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+
+ 
+
+
+<!-- Page content -->
+
+
+<h1>LockerGoga : pourquoi il ne s'agit pas seulement de <br>rançon (et c'est bien pire)</h1>
+<div class="text">
+<p><b>Technologie</b> : Dans certains cas, LockerGoga rend très difficile le paiement des rançons pour déchiffrer les systèmes.</p>
+</div>
+
+<img src="locker.jpg" class="revenu">
+
+
+    
+  
+
+<div class="goal">
+    <p>Par Husain Al asmi | Mercredi 27 Novembre 2019</p>
+</div>
+
+<img src="vi.png" stlye="w" class="hp">
+
+<div class="cool">
+    <p>Des variantes de LockerGoga, une forme de logiciel de rançon (rançongiciel ou ransomware) qui cible les systèmes industriels, ont été découvertes dans lesquelles la logique de paiement semble avoir été pensé après coup. De quoi s'interroger sur le véritable but du malware.
+Le malware a récemment été détecté au cœur d'une attaque menée contre Norsk Hydro. Le producteur d'aluminium a été infecté par une souche de logiciel malveillant qui a verrouillé ses systèmes et exigé le paiement d'une rançon ; une demande qui n'a pas été satisfaite.
+
+Au lieu de cela, Norsk Hydro a appelé à l'aide et Microsoft, parmi d'autres fournisseurs informatiques, a répondu. Cependant, l'entreprise a du passer à des processus manuels et ne pouvait pas accéder aux commandes des clients jusqu'à ce que les sauvegardes soient restaurées.
+</p>
+</div>
+
+
+<h2>N'utilisez jamais un logiciel inconnu !!</h2>
+
+<div class="lol">
+    <p>LockerGoga est l'une des nombreuses formes de logiciels malveillants qui se balade dans la nature et attaquent les systèmes industriels. Une autre famille de logiciels malveillants, Industroyer est, selon ESET, "spécifiquement conçu pour attaquer le réseau électrique". Il est responsable de l'arrêt temporaire du réseau électrique à Kiev, en Ukraine, en 2016.
+
+Selon les chercheurs de Securonix, les variantes de LockerGoga donnent un aperçu des capacités du logiciel malveillant, mais aussi d'étranges éléments de programmation qui peuvent rendre le paiement d'une rançon de fait assez compliquée.
+
+Securonix a publié un rapport détaillé sur les capacités des souches de LockerGoga actives à ce jour.<br><br> Le vecteur d'infection de LockerGoga n'a pas été vérifié, mais comme dans de nombreux cas de compromission, il est probable que les messages de phishing soient l'étape initiale. Les chercheurs affirment que les documents Microsoft Word ou RTF contenant des macros malveillantes sont alors soupçonnés d'être coupables.
+
+Et les logiciels malveillants sont signés avec des certificats valides qui permettent de contourner les produits de sécurité traditionnels. Les pirates derrière le ransomware utilisent plusieurs autorités de certification (CA - certificate authorities)  - Alisa Ltd, Kitty Ltd, Sectigo et Mikl Limited - et certaines variantes du logiciel malveillant ont été équipées de fonctions de destruction afin de désactiver les systèmes antivirus. D'autres, en outre, sont capables de supprimer des processus Windows.
+
+Une fois qu'un système est infecté par LockerGoga, certaines variantes déplacent le logiciel malveillant sur les réseaux en utilisant le protocole Microsoft Server Message Block (SMB).<br><br> D'autres ont été observées utilisant les services de gestion Active Directory aux mêmes fins.
+
+"La progression de l'attaque la plus probable [est] qu'une compromission initiale a été suivie d'un placement manuel et d'une modification de l'une des entrées de script de connexion existantes dans le répertoire Netlogon sur une ressource AD [...], qui a permis au binaire de se propager automatiquement et soit exécuté par les utilisateurs au sein de l'organisation au cours d'une session de connexion" explique Securonix.
+
+"Il est également possible que les pirates aient créé un nouveau script de connexion et ajouté une nouvelle entrée GPO de connexion pour exécuter le binaire sur tous les systèmes appliquant le script de connexion à l'unité organisationnelle ou à l'organisation entière". Les techniques d'évitement des machines virtuelles (VM) et de bac à sable, même si elles sont primitives, entrent également en jeu.
+
+Le logiciel malveillant commence alors son travail. LockerGoga se concentre sur le chiffrement de fichiers avec des extensions bien connues telles que .doc, .xml, .ppt, et.pdf en utilisant les clés AES-256.<br><br> L'extension *.LOCKED est utilisée.
+
+L'objectif principal du malware est d'infecter et de chiffrer. Cependant, certaines variantes de LockerGoga ont une étrange bizarrerie qui peut rendre assez compliquée pour les victimes de payer leur demande de rançon.
+
+Dans certaines souches en effet, le logiciel malveillant modifie les mots de passe de l'administrateur et déconnecte les victimes de leur système en utilisant logoff.exe. "Cela indique que les objectifs de l'attaquant peuvent inclure des objectifs supplémentaires qui ne font pas partie d'un modus operandi traditionnel de rançon, comme le cybersabotage" dit l'équipe (lire aussi : Ransomware : la sulfureuse hypothèse sur la situation chez Norsk Hydro).
+
+Le démantèlement de services essentiels peut avoir des conséquences catastrophiques dans le monde réel, et provoquer de telles perturbations peuvent être tentantes pour les pirates.
+
+Oleg Kolesnikov, directeur de la recherche sur les menaces chez Securonix, a déclaré à ZDNet : "L'une des raisons pour lesquelles LockerGoga a eu un tel impact lors de l'attaque de Norsk Hydro était son ampleur. Il a infecté de multiples systèmes en les copiant dans le répertoire partagé et en les transférant latéralement, affectant ainsi l'ensemble de l'organisation. Ce mouvement latéral est une technique qui n'a pas été utilisée couramment dans d'autres attaques, donc ce n'est pas quelque chose que les entreprises ont l'habitude de détecter, mais qui devrait être inclus dans les protocoles de détection future."</p>
+</div>
+
+
+
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+</body>
+</html>

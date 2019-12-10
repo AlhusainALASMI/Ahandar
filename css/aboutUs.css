@@ -215,13 +215,25 @@ img.presentationImg {
 }
 
 /*--------------- PAGES -----------------*/
-img.page1 {
+.cvCover {
 	position: absolute;
 	top: 76vw;
 	height: 48vw;
-	right : 9.85%;
+	right : 9.85%;	
+}
+.cvTaha {
+	position: absolute;
+	top: 76vw;
+	height: 48vw;
+	right : 9.85%;	
 }
 .cvHusain {
+	position: absolute;
+	top: 76vw;
+	height: 48vw;
+	right : 9.85%;	
+}
+.cvLeo {
 	position: absolute;
 	top: 76vw;
 	height: 48vw;
@@ -236,28 +248,38 @@ img.pageTear {
 }
 
 /*------------- PAGE CONTROL --------------*/
-.leftPage {
+.tabs {
 	position: absolute;
-	top: 95vw;
-	left: 50%; right: 45%;
+	top: 80vw;
+	left: 48%; right: 45%;
 	height: 5vw;
-	background-color: grey;
-}
-.leftPage:hover {
-	background-color: red;
-	cursor: pointer;
-}
-.rightPage {
-	position: absolute;
-	top: 95vw;
-	left: 90%; right: 5%;
-	height: 5vw;
-	background-color: grey;
-}
-.rightPage:hover {
-	background-color: red;
-	cursor: pointer;
 }
 
 
-/*------------- KEYFRAME ANIMATION --------------*/
+.tabTaha {
+	margin-bottom: 2vw;
+	height: 7vw;
+	transition-duration: 0.3s;
+}
+.tabTaha:hover {
+	transform: translate(.2vw) scale(1.1);
+}
+
+
+.tabHusain {
+	margin-bottom: 3vw;
+	height: 7vw;
+	transition-duration: 0.3s;
+}
+.tabHusain:hover {
+	transform: translate(.2vw) scale(1.1);
+}
+
+
+.tabLeo{
+	height: 7vw;
+	transition-duration: 0.3s;
+}
+.tabLeo:hover {
+	transform: translate(.2vw) scale(1.1);
+}
