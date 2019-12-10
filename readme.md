@@ -47,8 +47,8 @@
 - [X] Ajouter des commentaires
 - [ ] Supprimer son commentaire
 
-#### Questionnaire client (suggestions)
-- [ ] Questionnaire de satisfaction après achat (Page produit)
+#### Questionnaire client
+- [X] Questionnaire de satisfaction après achat (Page produit)
 - [ ] Questionnaire "Laissez-vous guider" (Accueil)
 
 #### Administration du site
