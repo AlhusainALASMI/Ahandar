@@ -43,14 +43,14 @@ li.liNavbar {
 }
 li.liNavbar a.aNavbar {
 	display: block;
-	padding: 0.35vw 10vw;
+	padding: 0.35vw 6.5vw;
 	font-size: 1.6vw;
 	color: #2b3a47;
 	text-decoration: none;
 	transition-duration: 0.2s;
 }
 li.liNavbar a.aNavbar:hover {
-	background-color: #dae5f0;
+	background-color: #d3e4f5;
 	transform: scale(1.03);
 }
 

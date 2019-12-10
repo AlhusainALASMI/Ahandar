@@ -1,0 +1,100 @@
+
+not (.w3-left w3-hide-small){
+    background-color: #d6d9f0
+}
+
+body{
+    background-color: #d6d9f0
+}
+header{
+    background-color: white
+}
+
+
+
+h1{
+    align-self: center;
+    position: relative;
+    margin-top: 130px;
+    font-size: 40px;
+    left: 5%;
+    font-family: 'Oswald', sans-serif;
+    opacity: 0.7
+}
+
+.text{
+    width: 400px;
+    margin-left: 70px;
+    margin-top: 50px;
+    font-size: 17px
+    
+    
+}
+
+.revenu{
+    
+    margin-top: 100 px;
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    left: 60%;
+    top: 37%;
+    border-radius: 13px;
+width:400px;
+height :250px
+}
+
+    
+    
+.goal{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 70px;
+    margin-top: 70px;
+    border:double;
+    margin-right: 910px;
+    padding: 0 15px
+    
+}
+
+.hp{
+    margin-left: 20px;
+    margin-top: 130px;
+    border-radius: 8px;
+    margin-bottom: 130px;
+width:600px
+}
+
+   
+
+.cool{
+    width: 600px;
+    float: right;
+    margin-right: 40px;
+    margin-top: 110px;
+    font-size:20px;
+    font-family: 'Merriweather', serif;
+    word-spacing: 4px
+    
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+margin-top: 200px
+}
+
+.lol{width: 1300px;
+    font-size:20px;
+    font-family: 'Merriweather', serif;
+    word-spacing: 4px;
+    margin-left: 40px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+     padding: 30px;
+    border-width: 5px;
+border:double
+    
+}
+
+

@@ -11,6 +11,11 @@
                     "user": "Anhau",
                     "comment": "tr\u00e8s satisfait. le cloud fait bien la paire",
                     "note": "5\/5"
+                },
+                {
+                    "user": "Pascal",
+                    "comment": "Dingue, \u00e7a marche m\u00eame sous linux!!!!!!",
+                    "note": "5\/5"
                 }
             ],
             "category": "globale\/antivirus"
@@ -62,6 +67,28 @@
                     "user": "John. F",
                     "comment": "IL N'ENREGIStRE PAS LES TOUCHE ARNAQUE NUL NUL;; A FUIR",
                     "note": "1\/5"
+                }
+            ],
+            "category": "globale\/antivirus"
+        }
+    ],
+    "Blueloop": [
+        {
+            "image": "images\/products\/blueloop.png",
+            "price": "18.99€/an",
+            "resume": "Password Manager s\u00e9curis\u00e9 qui vous permet de stocker vos mots de passes sans se soucier de les oublier",
+            "description": "<strong>Passlock<\/strong> est un Password Manager qui g\u00e8re vos mots de passes de fa\u00e7on s\u00e9curis\u00e9e.<br\/>Avec Passlock, plus besoin de se souvenir ou de noter chaque mot de passe utilis\u00e9 ! En quelques clics seulement, vous pourrez r\u00e9cup\u00e9rer vos identifiants et vous connecter comme d'habitude, en toute s\u00e9curit\u00e9.<br\/><br\/><i>Pour un maximum d'avantage, vous pouvez \u00e9galement acheter <strong>Cumulus<\/strong>, le service Cloud d'Ahandar, et avoir acc\u00e8s \u00e0 vos mot de passes o\u00f9 que vous soyez.<\/i>",
+            "etoiles": "4.3",
+            "evaluation": [
+                {
+                    "user": "Anhau",
+                    "comment": "tr\u00e8s satisfait. le cloud fait bien la paire",
+                    "note": "5\/5"
+                },
+                {
+                    "user": "Pascal",
+                    "comment": "Dingue, \u00e7a marche m\u00eame sous linux!!!!!!",
+                    "note": "5\/5"
                 }
             ],
             "category": "globale\/antivirus"

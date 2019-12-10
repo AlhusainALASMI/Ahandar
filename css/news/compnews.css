@@ -1,0 +1,69 @@
+
+
+button{
+  font-weight: arial;
+  font-weight: bold;
+  border-radius: 0px 0px 2px 2px;
+  text-decoration: none
+}
+
+button a{
+  text-decoration: none
+}
+
+#projects h1{
+  text-align: center;
+  margin-top:  200 px auto;
+  position:relative;
+  top: 30%;
+  left: 0%;
+  font-size: 60px;
+  font-family: 'Oswald', sans-serif;
+  opacity: 0.6;
+  margin-top: 150px
+
+}
+.w3-row-padding{
+  position: relative;
+  top:50%;
+  display: block;
+  left:0%;
+  margin-top: 300px
+}
+font{
+  font-family: 'Alatsi', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  text-align:!important;
+  margin: 5px
+}
+.w3-display-container img {
+ 
+  
+  
+}
+i{
+  text-align: center;
+  left: 20%;
+  position: absolute;
+  font-size: 30px;
+  top:60%;
+  font-family: 'Alatsi', sans-serif;
+  opacity: 0.8
+}
+.row {
+  position: relative;
+  top:50%;
+
+  left:0%;
+  margin: 28px;
+  margin-bottom: 500px;
+  margin-top: 100px
+}
+
+.row img{
+  margin: 0px 0px;
+  padding:10px;
+  
+  
+}
