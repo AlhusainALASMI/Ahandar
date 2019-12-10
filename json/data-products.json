@@ -76,35 +76,56 @@
         {
             "image": "images\/products\/blueloop.png",
             "price": "18.99€/an",
-            "resume": "Password Manager s\u00e9curis\u00e9 qui vous permet de stocker vos mots de passes sans se soucier de les oublier",
-            "description": "<strong>Passlock<\/strong> est un Password Manager qui g\u00e8re vos mots de passes de fa\u00e7on s\u00e9curis\u00e9e.<br\/>Avec Passlock, plus besoin de se souvenir ou de noter chaque mot de passe utilis\u00e9 ! En quelques clics seulement, vous pourrez r\u00e9cup\u00e9rer vos identifiants et vous connecter comme d'habitude, en toute s\u00e9curit\u00e9.<br\/><br\/><i>Pour un maximum d'avantage, vous pouvez \u00e9galement acheter <strong>Cumulus<\/strong>, le service Cloud d'Ahandar, et avoir acc\u00e8s \u00e0 vos mot de passes o\u00f9 que vous soyez.<\/i>",
-            "etoiles": "4.3",
+            "resume": "Licence de protection de vos données sur votre bluetooth, partagez et recevez des données sans crainte",
+            "description": "<strong>Blueloop<\/strong> est un logiciel qui permet de protéger les données que vous envoyez ou que vous recevez via votre Bluetooth.<br\/>Grâce à ce logiciel, vos données seront protégées de tout tentatives de vol de données. Facile d'accès pour vos ordinateurs et téléphones portables.<br\/><br\/><i>Avec ce logiciel, vous obtenez une licence d'un an renouvelable à tout moment.<\/i>",
+            "etoiles": "3.6",
             "evaluation": [
                 {
-                    "user": "Anhau",
-                    "comment": "tr\u00e8s satisfait. le cloud fait bien la paire",
-                    "note": "5\/5"
+                    "user": "Jordan P.",
+                    "comment": "Bon produit je vais surement renouveler",
+                    "note": "4\/5"
                 },
                 {
-                    "user": "Pascal",
-                    "comment": "Dingue, \u00e7a marche m\u00eame sous linux!!!!!!",
+                    "user": "Lily A",
+                    "comment": "comment sa marche????",
+                    "note": "2\/5"
+                },
+                {
+                    "user": "Chiffonier88",
+                    "comment": "Bien.",
+                    "note": "3\/5"
+                },
+                {
+                    "user": "Boly Hecate",
+                    "comment": "Exactement ce dont j'avais besoin !!",
                     "note": "5\/5"
                 }
+
             ],
             "category": "globale\/antivirus"
         }
     ],
-    "Fjallraven": [
+    "ProtecMail": [
         {
-            "image": "images\/products\/fjall.png",
-            "price": "69.69\u20ac",
+            "image": "images\/products\/protecMail.png",
+            "price": "24.99€",
             "resume": "Password Manager s\u00e9curis\u00e9 qui vous permet de stocker vos mots de passes sans se soucier de les oublier",
-            "description": "Fjall est un produit su\u00e9dois de luxe, oui",
-            "etoiles": "4.3",
+            "description": "<strong>ProtecMail<\/strong> est un logiciel qui s'associe à votre mail, vous évitant d'être la cible d'arnaques suites à des fuites de données.<br\/>Ce logiciel détecte les e-mails malicieux et vous le laisse savoir, après avoir supprimé la menace du contenu du mail.<br\/><br\/><i>Seulement une seule adresse e-mail peut être synchronisée avec <strong>ProtecMail</strong>. Pour plus d'informations sur le partage d'adresse e-mail familiale, contactez le support.<\/i>",
+            "etoiles": "4.2",
             "evaluation": [
                 {
-                    "user": "idfua",
-                    "comment": "jfall ou fjall",
+                    "user": "Natasha B.",
+                    "comment": "1komenton faitpour avoirsur p lusieur mail",
+                    "note": "1\/5"
+                },
+                {
+                    "user": "Louislouis",
+                    "comment": "jai quand meme des pubs erotiques",
+                    "note": "2\/5"
+                },
+                {
+                    "user": "kirikou34",
+                    "comment": "Le produit est très efficace. Plusieurs fois mon adresse e-mail s'est fait leak, et c'est bien le seul logiciel honnête qui fait vraiment ce qu'il dit.<br/>Très satisfait, encore une fois Ahandar ne déçoit pas !",
                     "note": "5\/5"
                 }
             ],
@@ -197,24 +218,42 @@
             "category": "globale\/antivirus"
         }
     ],
-    "Haroft all-in-one": [
+    "Haroft": [
         {
             "image": "images\/products\/haroft.png",
             "price": "139.99\u20ac",
             "resume": "Password Manager s\u00e9curis\u00e9 qui vous permet de stocker vos mots de passes sans se soucier de les oublier",
             "description": "package simple complet",
-            "etoiles": "4.8",
-            "evaluation": [],
-            "category": "globale\/all-in-one"
+            "etoiles": "2.5",
+            "evaluation": [
+                {
+                    "user": "nimertwo",
+                    "comment": "",
+                    "note": "2\/5"
+                },
+                {
+                    "user": "user284923",
+                    "comment": "",
+                    "note": "3\/5"
+                }
+            ],
+            "category": "globale\/software"
         }
     ],
     "Webextension": [
         {
             "image": "images\/products\/webextension.png",
-            "price": "9.99\u20ac",
-            "resume": "Password Manager s\u00e9curis\u00e9 qui vous permet de stocker vos mots de passes sans se soucier de les oublier",
-            "description": "protection web basic",
-            "evaluation": [],
+            "price": "3€/mois",
+            "resume": "Extension universelle de navigateur qui bloque les pubs, les trackers, et les popups indésirables.",
+            "description": "<strong>Webextension</strong> est une extension qui marche sur n'importe quel navigateur. Il filtre les publicités, et limite les informations que les sites collectent sur vous.<br/>Webextension ne vous avertira que si il détecte la présence d'une attaque, et vous proposera de quitter la page avant qu'elle nous puisse vous atteindre.<br/><br/><i><strong>Webextension</strong> dispose d'une fonctionnalité de tris, vous permettant de désactiver le filtrage sur certains sites et ainsi soutenir le site en question.</i>",
+            "etoiles": "5",
+            "evaluation": [
+                {
+                    "user": "Lafamoso",
+                    "comment": "utilisé depuis 2 semaines pas de problemes jusquela",
+                    "note": "5\/5"
+                }
+            ],
             "category": "internet\/web-extension"
         }
     ]
