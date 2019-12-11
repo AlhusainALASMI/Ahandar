@@ -12,9 +12,10 @@ $(document).ready(function() {
 	productNames = Object.keys(productInfo[0]);
 
 
-
-	populatePage();
-	toggleInfos();
+	setTimeout(function(){
+		populatePage();
+		toggleInfos();
+	}, 200);
 	
 	});
 
